@@ -2045,7 +2045,7 @@ li.hide-title > a {
     margin-top: 0;
     margin-right: 1em;
     text-shadow: none;
-    line-height: 38px;
+    line-height: 37px;
     min-height: 38px;
     padding: 0 1.2em;
     max-width: 100%;
@@ -6957,6 +6957,9 @@ li .comment-respond small {
 .form-flat .search-form-categories {
     padding-right: 5px
 }
+.search-form-categories select {
+    min-width: 80px
+}
 .searchform .button.icon {
     margin: 0
 }
@@ -6970,7 +6973,7 @@ li .comment-respond small {
     border-color: currentColor
 }
 .searchform-wrapper.form-flat .flex-col:last-of-type {
-    margin-left: -2.9em
+    margin-left: -48px
 }
 .searchform-wrapper .autocomplete-suggestions {
     -webkit-overflow-scrolling: touch;
@@ -7344,7 +7347,8 @@ li .comment-respond small {
 }
 #wide-nav > .flex-row > .flex-left {
     width: 25%;
-    padding-right: 15px
+    padding-right: 15px;
+    margin-left: -2px
 }
 .banner-3 a {
     overflow: hidden;
@@ -7386,9 +7390,13 @@ li .comment-respond small {
 }
 #mega_menu li a {
     padding: 7px 15px;
-    display: block
+    display: block;
+    font-size: 16px
 }
-#mega_menu > li > a:after {
+#mega_menu ul.sub-menu li a {
+    padding-bottom: 8px
+}
+#mega_menu > li.has-child > a:after {
     content: "\f105";
     font-family: FontAwesome;
     float: right
@@ -7396,17 +7404,43 @@ li .comment-respond small {
 #mega_menu li > .toggle {
     display: none
 }
+#mega_menu li:hover {
+    background: #f5f5f5
+}
 #mega_menu > li > ul.sub-menu {
     position: absolute;
-    top: -1px;
+    top: 0px;
     left: 100%;
     background: #fff;
     width: 100%;
-    margin: 0;
-    padding: 0 0 0 20px
+    margin: 0 0 0 1px;
+    padding: 0 20px 0 0
 }
-#mega_menu ul.sub-menu li a, #mega_menu > li:hover > ul.sub-menu {
+#mega_menu > li > .menu-image {
+    position: absolute;
+    left: 100%;
+    top: -1px;
+    display: none;
+    width: 200%;
+    background: #fff;
+    text-align: right;
+    border: solid 1px #ddd;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175)
+}
+#mega_menu > li:hover > ul.sub-menu, #mega_menu > li:hover > .menu-image {
     display: block
+}
+#mega_menu > li:hover > ul.sub-menu:before {
+    content: "";
+    background: transparent;
+    position: absolute;
+    top: -1px;
+    bottom: 0;
+    width: 15px;
+    left: -15px
+}
+#header.header.has-sticky .header-wrapper.stuck #mega_menu {
+    margin-top: 0
 }
 #header.header.has-sticky .header-wrapper.stuck #mega_menu:not(.active) {
     display: none
