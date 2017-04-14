@@ -33,11 +33,11 @@ function shortcode_latest_from_blog($atts, $content = null, $tag) {
 		'ids' => false, // Custom IDs
 		'cat' => '',
 		'excerpt' => 'visible',
-		'excerpt_length' => 15,
+		'excerpt_length' => 38,
 		'offset' => '',
 
 		// Read more
-		'readmore' => '',
+		'readmore' => 'Xem thêm',
 		'readmore_color' => '',
 		'readmore_style' => 'outline',
 		'readmore_size' => 'small',
@@ -253,7 +253,7 @@ while ( $recentPosts->have_posts() ) : $recentPosts->the_post();
 					<?php if($excerpt !== 'false') { ?>
 					<p class="from_the_blog_excerpt <?php if($excerpt !== 'visible'){ echo 'show-on-hover hover-'.$excerpt; } ?>"><?php
 					  $the_excerpt = get_the_excerpt();
-					  echo flatsome_string_limit_words($the_excerpt, $excerpt_length) . '[...]';
+					  echo flatsome_string_limit_words($the_excerpt, $excerpt_length) . ' ...';
 					?>
 					</p>
 					<?php } ?>

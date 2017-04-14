@@ -2,14 +2,17 @@
 # This file is distributed under the same license as the Plugins - WooCommerce - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-12-05 02:02:54+0000\n"
+"PO-Revision-Date: 2017-03-18 13:13+0700\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.3.0-alpha\n"
+"X-Generator: Poedit 1.8.9\n"
 "Language: vi_VN\n"
 "Project-Id-Version: Plugins - WooCommerce - Stable (latest release)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
 
 #: includes/admin/class-wc-admin-menus.php:105
 msgid "Extensions"
@@ -52,7 +55,7 @@ msgstr "Cơ sở dữ liệu MaxMind GeoIP không tồn tại - Chức năng Geo
 msgid "https://woocommerce.com/"
 msgstr "https://woocommerce.com/"
 
-#: includes/api/class-wc-rest-products-controller.php:2461
+#: includes/api/class-wc-rest-products-controller.php:2444
 msgid "If the variation is visible."
 msgstr "Nếu biến sản phẩm có thể nhìn thấy được."
 
@@ -1058,156 +1061,155 @@ msgstr "Giao nhận %s"
 msgid "Return to shop"
 msgstr "Quay trở lại cửa hàng"
 
-#: includes/api/class-wc-rest-webhooks-controller.php:567
+#: includes/api/class-wc-rest-webhooks-controller.php:551
 msgid "Limit result set to webhooks assigned a specific status."
 msgstr "Giới hạn kết quả trong phạm vi các nhật ký web được chỉ định một trạng thái cụ thể."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:546
+#: includes/api/class-wc-rest-webhooks-controller.php:530
 msgid "The date the webhook was last modified, in the site's timezone."
 msgstr "Ngày sửa đổi nhật ký web lần cuối, thuộc múi giờ của trang."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:540
+#: includes/api/class-wc-rest-webhooks-controller.php:524
 msgid "The date the webhook was created, in the site's timezone."
 msgstr "Ngày tạo nhật ký web, thuộc múi giờ của trang."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:535
+#: includes/api/class-wc-rest-webhooks-controller.php:519
 msgid "Secret key used to generate a hash of the delivered webhook and provided in the request headers. This will default is a MD5 hash from the current user's ID|username if not provided."
 msgstr "Mã bảo mật dùng để tạo dữ liệu băm của nhật ký web đã chuyển giao và cung cấp trong các tiêu đề yêu cầu. Mã này sẽ đặt mặc định là dữ liệu băm MD5 từ tên người dùng|ID người dùng nếu không có."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:528
+#: includes/api/class-wc-rest-webhooks-controller.php:512
 msgid "The URL where the webhook payload is delivered."
 msgstr "URL trong đó cung cấp phần tải dữ liệu của nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:519
+#: includes/api/class-wc-rest-webhooks-controller.php:506
 msgid "WooCommerce action names associated with the webhook."
 msgstr "Tên hành động của WooCommerce liên kết với nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:513
+#: includes/api/class-wc-rest-webhooks-controller.php:500
 msgid "Webhook event."
 msgstr "Sự kiện nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:507
+#: includes/api/class-wc-rest-webhooks-controller.php:494
 msgid "Webhook resource."
 msgstr "Tài nguyên nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:72
-#: includes/api/class-wc-rest-webhooks-controller.php:502
+#: includes/api/class-wc-rest-webhooks-controller.php:489
 msgid "Webhook topic."
 msgstr "Chủ đề nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:492
+#: includes/api/class-wc-rest-webhooks-controller.php:479
 msgid "Webhook status."
 msgstr "Trạng thái nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:487
+#: includes/api/class-wc-rest-webhooks-controller.php:474
 msgid "A friendly name for the webhook."
 msgstr "Một tên dễ nhớ dành cho nhật ký web."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:240
+#: includes/api/class-wc-rest-webhooks-controller.php:227
 msgid "Webhook topic must be valid."
 msgstr "Chủ đề nhật ký web phải hợp lệ."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:154
-#: includes/api/class-wc-rest-webhooks-controller.php:249
+#: includes/api/class-wc-rest-webhooks-controller.php:141
+#: includes/api/class-wc-rest-webhooks-controller.php:236
 msgid "Webhook delivery URL must be a valid URL starting with http:// or https://."
 msgstr "URL cung cấp nhật ký web phải là URL hợp lệ bắt đầu bằng http:// or https://."
 
-#: includes/api/class-wc-rest-webhooks-controller.php:149
+#: includes/api/class-wc-rest-webhooks-controller.php:136
 msgid "Webhook topic is required and must be valid."
 msgstr "Chủ đề nhật ký web bắt buộc phải có và phải hợp lệ."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:308
+#: includes/api/class-wc-rest-webhook-deliveries.php:286
 msgid "The date the webhook delivery was logged, in the site's timezone."
 msgstr "Ngày ghi bàn giao nhật ký web, thuộc múi giờ của trang."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:302
+#: includes/api/class-wc-rest-webhook-deliveries.php:280
 msgid "The response body from the receiving server."
 msgstr "Nội dung phản hồi từ máy chủ nhận thư."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:293
+#: includes/api/class-wc-rest-webhook-deliveries.php:274
 msgid "Array of the response headers from the receiving server."
 msgstr "Dãy tiêu đề phản hồi từ máy chủ nhận thư."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:287
+#: includes/api/class-wc-rest-webhook-deliveries.php:268
 msgid "The HTTP response message from the receiving server."
 msgstr "Thông báo phản hồi HTTP từ máy chủ nhận thư."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:281
+#: includes/api/class-wc-rest-webhook-deliveries.php:262
 msgid "The HTTP response code from the receiving server."
 msgstr "Mã phản hồi HTTP từ máy chủ nhận thư."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:275
+#: includes/api/class-wc-rest-webhook-deliveries.php:256
 msgid "Request body."
 msgstr "Nội dung yêu cầu."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:266
+#: includes/api/class-wc-rest-webhook-deliveries.php:250
 msgid "Request headers."
 msgstr "Tiêu đề yêu cầu."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:252
-#: includes/api/class-wc-rest-webhook-deliveries.php:259
+#: includes/api/class-wc-rest-webhook-deliveries.php:236
+#: includes/api/class-wc-rest-webhook-deliveries.php:243
 msgid "The URL where the webhook was delivered."
 msgstr "URL trong đó cung cấp nhật ký web."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:246
+#: includes/api/class-wc-rest-webhook-deliveries.php:230
 msgid "A friendly summary of the response including the HTTP response code, message, and body."
 msgstr "Một phần tóm tắt dễ nhớ của phản hồi bao gồm mã phản hồi HTTP, thông báo, và nội dung văn bản."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:240
+#: includes/api/class-wc-rest-webhook-deliveries.php:224
 msgid "The delivery duration, in seconds."
 msgstr "Thời hạn giao hàng, tính bằng giây."
 
-#: includes/api/class-wc-rest-webhook-deliveries.php:122
-#: includes/api/class-wc-rest-webhook-deliveries.php:148
+#: includes/api/class-wc-rest-webhook-deliveries.php:106
+#: includes/api/class-wc-rest-webhook-deliveries.php:132
 msgid "Invalid webhook id."
 msgstr "id nhật ký web không hợp lệ."
 
-#: includes/api/class-wc-rest-taxes-controller.php:700
+#: includes/api/class-wc-rest-taxes-controller.php:687
 msgid "Sort by tax class."
 msgstr "Sắp xếp theo loại thuế."
 
-#: includes/api/class-wc-rest-taxes-controller.php:629
+#: includes/api/class-wc-rest-taxes-controller.php:622
 msgid "Indicates the order that will appear in queries."
 msgstr "Nêu rõ thứ tự sẽ xuất hiện trong các truy vấn."
 
-#: includes/api/class-wc-rest-taxes-controller.php:623
+#: includes/api/class-wc-rest-taxes-controller.php:616
 msgid "Whether or not this tax rate also gets applied to shipping."
 msgstr "Dù có áp dụng thuế suất này đối với giao hàng hay không."
 
-#: includes/api/class-wc-rest-taxes-controller.php:617
+#: includes/api/class-wc-rest-taxes-controller.php:610
 msgid "Whether or not this is a compound rate."
 msgstr "Dù đây là thuế suất gộp hay không."
 
-#: includes/api/class-wc-rest-taxes-controller.php:611
+#: includes/api/class-wc-rest-taxes-controller.php:604
 msgid "Tax priority."
 msgstr "Ưu đãi thuế."
 
-#: includes/api/class-wc-rest-taxes-controller.php:606
+#: includes/api/class-wc-rest-taxes-controller.php:599
 msgid "Tax rate name."
 msgstr "Tên thuế suất."
 
-#: includes/api/class-wc-rest-taxes-controller.php:601
+#: includes/api/class-wc-rest-taxes-controller.php:594
 msgid "Tax rate."
 msgstr "Thuế suất."
 
-#: includes/api/class-wc-rest-taxes-controller.php:591
+#: includes/api/class-wc-rest-taxes-controller.php:584
 msgid "Postcode/ZIP."
 msgstr "Mã bưu chính/ZIP."
 
-#: includes/api/class-wc-rest-taxes-controller.php:586
+#: includes/api/class-wc-rest-taxes-controller.php:579
 msgid "State code."
 msgstr "Mã bang."
 
-#: includes/api/class-wc-rest-taxes-controller.php:581
+#: includes/api/class-wc-rest-taxes-controller.php:574
 msgid "Country ISO 3166 code."
 msgstr "Mã ISO 3166 của quốc gia."
 
-#: includes/api/class-wc-rest-tax-classes-controller.php:338
+#: includes/api/class-wc-rest-tax-classes-controller.php:331
 msgid "Tax class name."
 msgstr "Tên loại thuế."
 
-#: includes/api/class-wc-rest-tax-classes-controller.php:223
-#: includes/api/class-wc-rest-taxes-controller.php:456
+#: includes/api/class-wc-rest-tax-classes-controller.php:216
+#: includes/api/class-wc-rest-taxes-controller.php:449
 msgid "Taxes do not support trashing."
 msgstr "Thuế không hỗ trợ xóa hẳn."
 
@@ -1231,15 +1233,15 @@ msgstr "Danh sách báo cáo bán hàng."
 msgid "Total number of purchases."
 msgstr "Tổng số giao dịch mua."
 
-#: includes/api/class-wc-rest-report-sales-controller.php:390
+#: includes/api/class-wc-rest-report-sales-controller.php:387
 msgid "Return sales for a specific end date, the date need to be in the %s format."
 msgstr "Trả về doanh số bán hàng cho một ngày kết thúc cụ thể, ngày đó phải có định dạng %s."
 
-#: includes/api/class-wc-rest-report-sales-controller.php:383
+#: includes/api/class-wc-rest-report-sales-controller.php:380
 msgid "Return sales for a specific start date, the date need to be in the %s format."
 msgstr "Trả về doanh số bán hàng cho một ngày bắt đầu cụ thể, ngày đó phải có định dạng %s."
 
-#: includes/api/class-wc-rest-report-sales-controller.php:376
+#: includes/api/class-wc-rest-report-sales-controller.php:373
 msgid "Report period."
 msgstr "Giai đoạn báo cáo."
 
@@ -1287,441 +1289,441 @@ msgstr "Doanh thu thuần của cả giai đoạn."
 msgid "Gross sales in the period."
 msgstr "Tổng doanh thu của cả giai đoạn."
 
-#: includes/api/class-wc-rest-products-controller.php:2753
+#: includes/api/class-wc-rest-products-controller.php:2733
 msgid "Limit result set to products with a specific SKU."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm có một SKU cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2747
+#: includes/api/class-wc-rest-products-controller.php:2727
 msgid "Limit result set to products with a specific attribute term (required an assigned attribute)."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm có một thuật ngữ thuộc tính cụ thể (cần phải chỉ định một thuộc tính)."
 
-#: includes/api/class-wc-rest-products-controller.php:2741
+#: includes/api/class-wc-rest-products-controller.php:2721
 msgid "Limit result set to products with a specific attribute."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm có một thuộc tính cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2735
+#: includes/api/class-wc-rest-products-controller.php:2715
 msgid "Limit result set to products assigned a specific shipping class."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm được chỉ định một loại hình giao hàng cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2729
+#: includes/api/class-wc-rest-products-controller.php:2709
 msgid "Limit result set to products assigned a specific tag."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm được chỉ định một đoạn mã cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2723
+#: includes/api/class-wc-rest-products-controller.php:2703
 msgid "Limit result set to products assigned a specific category."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm được chỉ định một hạng mục cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2716
+#: includes/api/class-wc-rest-products-controller.php:2696
 msgid "Limit result set to products assigned a specific type."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm được chỉ định một loại cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2709
+#: includes/api/class-wc-rest-products-controller.php:2689
 msgid "Limit result set to products assigned a specific status."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm được chỉ định một trạng thái cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2703
+#: includes/api/class-wc-rest-products-controller.php:2683
 msgid "Limit result set to products with a specific slug."
 msgstr "Giới hạn kết quả trong phạm vi các sản phẩm có một đoạn mã cụ thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2684
+#: includes/api/class-wc-rest-products-controller.php:2664
 msgid "Menu order, used to custom sort products."
 msgstr "Trình tự menu, được sử dụng để tùy chỉnh cách sắp xếp sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:2675
+#: includes/api/class-wc-rest-products-controller.php:2658
 msgid "List of grouped products ID."
 msgstr "Danh sách ID sản phẩm theo nhóm."
 
-#: includes/api/class-wc-rest-products-controller.php:2602
+#: includes/api/class-wc-rest-products-controller.php:2585
 msgid "Variation image data."
 msgstr "Dữ liệu ảnh sản phẩm biến thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2584
+#: includes/api/class-wc-rest-products-controller.php:2567
 msgid "Variation height (%s)."
 msgstr "Biến thiên chiều cao (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2579
+#: includes/api/class-wc-rest-products-controller.php:2562
 msgid "Variation width (%s)."
 msgstr "Biến thiên chiều rộng (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2574
+#: includes/api/class-wc-rest-products-controller.php:2557
 msgid "Variation length (%s)."
 msgstr "Biến thiên độ dài (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2569
+#: includes/api/class-wc-rest-products-controller.php:2552
 msgid "Variation dimensions."
 msgstr "Thay đổi kích thước."
 
-#: includes/api/class-wc-rest-products-controller.php:2564
+#: includes/api/class-wc-rest-products-controller.php:2547
 msgid "Variation weight (%s)."
 msgstr "Thay đổi chiều cao (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2558
+#: includes/api/class-wc-rest-products-controller.php:2541
 msgid "Shows if the variation is on backordered."
 msgstr "Cho thấy nếu các thay đổi đã được đặt chỗ."
 
-#: includes/api/class-wc-rest-products-controller.php:2539
+#: includes/api/class-wc-rest-products-controller.php:2522
 msgid "Controls whether or not the variation is listed as \"in stock\" or \"out of stock\" on the frontend."
 msgstr "Điều khiển có hay không thay đổi được liệt kê là \"kho\" hoặc \"hết hàng\" ở frontend."
 
-#: includes/api/class-wc-rest-products-controller.php:2528
+#: includes/api/class-wc-rest-products-controller.php:2511
 msgid "Stock management at variation level."
 msgstr "Quản lý kho tại cấp độ thay đổi."
 
-#: includes/api/class-wc-rest-products-controller.php:2510
+#: includes/api/class-wc-rest-products-controller.php:2493
 msgid "Number of days that the customer has up to be able to download the variation."
 msgstr "Số ngày mà khách hàng đã lên để có thể tải về các thay đổi."
 
-#: includes/api/class-wc-rest-products-controller.php:2504
+#: includes/api/class-wc-rest-products-controller.php:2487
 msgid "Amount of times the variation can be downloaded."
 msgstr "Số lần thay đổi có thể tải về."
 
-#: includes/api/class-wc-rest-products-controller.php:2472
+#: includes/api/class-wc-rest-products-controller.php:2455
 msgid "If the variation is downloadable."
 msgstr "Nếu thay đổi có thể tải về."
 
-#: includes/api/class-wc-rest-products-controller.php:2466
+#: includes/api/class-wc-rest-products-controller.php:2449
 msgid "If the variation is virtual."
 msgstr "Nếu thay đổi là ảo."
 
-#: includes/api/class-wc-rest-products-controller.php:2455
+#: includes/api/class-wc-rest-products-controller.php:2438
 msgid "Shows if the variation can be bought."
 msgstr "Cho xem nếu thay đổi có thể mua."
 
-#: includes/api/class-wc-rest-products-controller.php:2449
+#: includes/api/class-wc-rest-products-controller.php:2432
 msgid "Shows if the variation is on sale."
 msgstr "HIển thị nếu sản phẩm biến thể đang được giảm giá."
 
-#: includes/api/class-wc-rest-products-controller.php:2434
+#: includes/api/class-wc-rest-products-controller.php:2417
 msgid "Variation sale price."
 msgstr "Giá sản phẩm biến thể khi giảm."
 
-#: includes/api/class-wc-rest-products-controller.php:2429
+#: includes/api/class-wc-rest-products-controller.php:2412
 msgid "Variation regular price."
 msgstr "Giá sản phẩm biến thể thường bán."
 
-#: includes/api/class-wc-rest-products-controller.php:2423
+#: includes/api/class-wc-rest-products-controller.php:2406
 msgid "Current variation price."
 msgstr "Giá sản phẩm biến thể hiện tại."
 
-#: includes/api/class-wc-rest-products-controller.php:2411
+#: includes/api/class-wc-rest-products-controller.php:2394
 msgid "Variation URL."
 msgstr "URL Thay đổi"
 
-#: includes/api/class-wc-rest-products-controller.php:2405
+#: includes/api/class-wc-rest-products-controller.php:2388
 msgid "The date the variation was last modified, in the site's timezone."
 msgstr "Ngày chỉnh sửa sản phẩm biến thể lần cuối, theo múi giờ của trang web."
 
-#: includes/api/class-wc-rest-products-controller.php:2399
+#: includes/api/class-wc-rest-products-controller.php:2382
 msgid "The date the variation was created, in the site's timezone."
 msgstr "Ngày tạo sản phẩm biến thể, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-products-controller.php:2393
+#: includes/api/class-wc-rest-products-controller.php:2376
 msgid "Variation ID."
 msgstr "ID sản phẩm biến thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2386
+#: includes/api/class-wc-rest-products-controller.php:2369
 msgid "List of variations."
 msgstr "Danh sách sản phẩm biến thể."
 
-#: includes/api/class-wc-rest-products-controller.php:2378
-#: includes/api/class-wc-rest-products-controller.php:2664
+#: includes/api/class-wc-rest-products-controller.php:2361
+#: includes/api/class-wc-rest-products-controller.php:2647
 msgid "Selected attribute term name."
 msgstr "Tên thuộc tính điều khoản được chọn"
 
-#: includes/api/class-wc-rest-products-controller.php:2361
+#: includes/api/class-wc-rest-products-controller.php:2344
 msgid "Defaults variation attributes."
 msgstr "Các thuộc tính của sản phẩm biến thể mặc định."
 
-#: includes/api/class-wc-rest-products-controller.php:2353
+#: includes/api/class-wc-rest-products-controller.php:2336
 msgid "List of available term names of the attribute."
 msgstr "Danh sách các tên thuật ngữ hiện có của thuộc tính."
 
-#: includes/api/class-wc-rest-products-controller.php:2347
+#: includes/api/class-wc-rest-products-controller.php:2330
 msgid "Define if the attribute can be used as variation."
 msgstr "Xác định xem liệu có thể sử dụng thuộc tính như một biến thể hay không."
 
-#: includes/api/class-wc-rest-products-controller.php:2341
+#: includes/api/class-wc-rest-products-controller.php:2324
 msgid "Define if the attribute is visible on the \"Additional Information\" tab in the product's page."
 msgstr "Xác định xem liệu có hiển thị thuộc tính trên thẻ \"Thông tin thêm\" trong trang sản phẩm hay không."
 
-#: includes/api/class-wc-rest-products-controller.php:2336
+#: includes/api/class-wc-rest-products-controller.php:2319
 msgid "Attribute position."
 msgstr "Vị trí thuộc tính."
 
-#: includes/api/class-wc-rest-products-controller.php:2326
-#: includes/api/class-wc-rest-products-controller.php:2368
-#: includes/api/class-wc-rest-products-controller.php:2654
+#: includes/api/class-wc-rest-products-controller.php:2309
+#: includes/api/class-wc-rest-products-controller.php:2351
+#: includes/api/class-wc-rest-products-controller.php:2637
 msgid "Attribute ID."
 msgstr "chonjID thuộc tính"
 
-#: includes/api/class-wc-rest-products-controller.php:2319
-#: includes/api/class-wc-rest-products-controller.php:2647
+#: includes/api/class-wc-rest-products-controller.php:2302
+#: includes/api/class-wc-rest-products-controller.php:2630
 msgid "List of attributes."
 msgstr "Danh sách thuộc tính."
 
-#: includes/api/class-wc-rest-products-controller.php:2311
-#: includes/api/class-wc-rest-products-controller.php:2640
+#: includes/api/class-wc-rest-products-controller.php:2294
+#: includes/api/class-wc-rest-products-controller.php:2623
 msgid "Image position. 0 means that the image is featured."
 msgstr "Vị trí ảnh. 0 nghĩa là ảnh này ở vị trí nổi bật."
 
-#: includes/api/class-wc-rest-products-controller.php:2271
+#: includes/api/class-wc-rest-products-controller.php:2254
 msgid "List of images."
 msgstr "Danh sách ảnh"
 
-#: includes/api/class-wc-rest-products-controller.php:2262
+#: includes/api/class-wc-rest-products-controller.php:2245
 msgid "Tag slug."
 msgstr "Đoạn mã thẻ."
 
-#: includes/api/class-wc-rest-products-controller.php:2251
+#: includes/api/class-wc-rest-products-controller.php:2234
 msgid "Tag ID."
 msgstr "ID thẻ."
 
-#: includes/api/class-wc-rest-products-controller.php:2244
+#: includes/api/class-wc-rest-products-controller.php:2227
 msgid "List of tags."
 msgstr "Danh sách cả thẻ."
 
-#: includes/api/class-wc-rest-products-controller.php:2235
+#: includes/api/class-wc-rest-products-controller.php:2218
 msgid "Category slug."
 msgstr "Đường dẫn chuyên mục."
 
-#: includes/api/class-wc-rest-products-controller.php:2224
+#: includes/api/class-wc-rest-products-controller.php:2207
 msgid "Category ID."
 msgstr "ID chuyên mục."
 
-#: includes/api/class-wc-rest-products-controller.php:2217
+#: includes/api/class-wc-rest-products-controller.php:2200
 msgid "List of categories."
 msgstr "Danh sách danh mục."
 
-#: includes/api/class-wc-rest-products-controller.php:2212
+#: includes/api/class-wc-rest-products-controller.php:2195
 msgid "Optional note to send the customer after purchase."
 msgstr "Ghi chú tùy chọn để gửi cho khách hàng sau khi mua."
 
-#: includes/api/class-wc-rest-products-controller.php:2207
+#: includes/api/class-wc-rest-products-controller.php:2190
 msgid "Product parent ID."
 msgstr "ID chính của sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:2199
+#: includes/api/class-wc-rest-products-controller.php:2185
 msgid "List of cross-sell products IDs."
 msgstr "Danh sách ID các sản phẩm bán chéo."
 
-#: includes/api/class-wc-rest-products-controller.php:2191
+#: includes/api/class-wc-rest-products-controller.php:2180
 msgid "List of up-sell products IDs."
 msgstr "Danh sách ID các sản phẩm bán thêm."
 
-#: includes/api/class-wc-rest-products-controller.php:2182
+#: includes/api/class-wc-rest-products-controller.php:2174
 msgid "List of related products IDs."
 msgstr "Danh sách ID sản phẩm liên quan."
 
-#: includes/api/class-wc-rest-products-controller.php:2176
+#: includes/api/class-wc-rest-products-controller.php:2168
 msgid "Amount of reviews that the product have."
 msgstr "Số lượng đánh giá mà sản phẩm có."
 
-#: includes/api/class-wc-rest-products-controller.php:2170
+#: includes/api/class-wc-rest-products-controller.php:2162
 msgid "Reviews average rating."
 msgstr "Xếp hạng trung bình đánh giá"
 
-#: includes/api/class-wc-rest-products-controller.php:2164
+#: includes/api/class-wc-rest-products-controller.php:2156
 msgid "Allow reviews."
 msgstr "Cho phép đánh giá."
 
-#: includes/api/class-wc-rest-products-controller.php:2158
-#: includes/api/class-wc-rest-products-controller.php:2596
+#: includes/api/class-wc-rest-products-controller.php:2150
+#: includes/api/class-wc-rest-products-controller.php:2579
 msgid "Shipping class ID."
 msgstr "ID lớp vận chuyển."
 
-#: includes/api/class-wc-rest-products-controller.php:2153
-#: includes/api/class-wc-rest-products-controller.php:2591
+#: includes/api/class-wc-rest-products-controller.php:2145
+#: includes/api/class-wc-rest-products-controller.php:2574
 msgid "Shipping class slug."
 msgstr "Đoạn mã loại hình giao hàng."
 
-#: includes/api/class-wc-rest-products-controller.php:2147
+#: includes/api/class-wc-rest-products-controller.php:2139
 msgid "Shows whether or not the product shipping is taxable."
 msgstr "Cho biết liệu việc giao sản phẩm có bị tính thuế hay không."
 
-#: includes/api/class-wc-rest-products-controller.php:2141
+#: includes/api/class-wc-rest-products-controller.php:2133
 msgid "Shows if the product need to be shipped."
 msgstr "HIển thị nếu cần phải giao sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:2134
+#: includes/api/class-wc-rest-products-controller.php:2126
 msgid "Product height (%s)."
 msgstr "Chiều cao sản phẩm (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2129
+#: includes/api/class-wc-rest-products-controller.php:2121
 msgid "Product width (%s)."
 msgstr "Chiều rộng sản phẩm (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2124
+#: includes/api/class-wc-rest-products-controller.php:2116
 msgid "Product length (%s)."
 msgstr "Chiều dài sản phẩm (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2119
+#: includes/api/class-wc-rest-products-controller.php:2111
 msgid "Product dimensions."
 msgstr "Kích thước sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:2114
+#: includes/api/class-wc-rest-products-controller.php:2106
 msgid "Product weight (%s)."
 msgstr "Trọng lượng sản phẩm (%s)."
 
-#: includes/api/class-wc-rest-products-controller.php:2108
+#: includes/api/class-wc-rest-products-controller.php:2100
 msgid "Allow one item to be bought in a single order."
 msgstr "Cho phép mua từng mục trong mỗi đơn hàng riêng."
 
-#: includes/api/class-wc-rest-products-controller.php:2102
+#: includes/api/class-wc-rest-products-controller.php:2094
 msgid "Shows if the product is on backordered."
 msgstr "Hiển thị nếu sản phẩm được đặt trước."
 
-#: includes/api/class-wc-rest-products-controller.php:2096
-#: includes/api/class-wc-rest-products-controller.php:2552
+#: includes/api/class-wc-rest-products-controller.php:2088
+#: includes/api/class-wc-rest-products-controller.php:2535
 msgid "Shows if backorders are allowed."
 msgstr "Hiển thị nếu cho phép các đơn hàng đặt sẵn."
 
-#: includes/api/class-wc-rest-products-controller.php:2089
-#: includes/api/class-wc-rest-products-controller.php:2545
+#: includes/api/class-wc-rest-products-controller.php:2081
+#: includes/api/class-wc-rest-products-controller.php:2528
 msgid "If managing stock, this controls if backorders are allowed."
 msgstr "Nếu quản kho, nó sẽ kiểm soát liệu có cho phép các đơn hàng đặt sẵn hay không."
 
-#: includes/api/class-wc-rest-products-controller.php:2078
-#: includes/api/class-wc-rest-products-controller.php:2534
+#: includes/api/class-wc-rest-products-controller.php:2070
+#: includes/api/class-wc-rest-products-controller.php:2517
 msgid "Stock quantity."
 msgstr "Số lượng trong kho."
 
-#: includes/api/class-wc-rest-products-controller.php:2072
+#: includes/api/class-wc-rest-products-controller.php:2064
 msgid "Stock management at product level."
 msgstr "Quản lý kho hàng theo mức độ sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:2060
-#: includes/api/class-wc-rest-products-controller.php:2516
+#: includes/api/class-wc-rest-products-controller.php:2052
+#: includes/api/class-wc-rest-products-controller.php:2499
 msgid "Tax status."
 msgstr "Tình trạng thuế."
 
-#: includes/api/class-wc-rest-products-controller.php:2055
+#: includes/api/class-wc-rest-products-controller.php:2047
 msgid "Product external button text. Only for external products."
 msgstr "Nội dung nút sản phẩm bên ngoài. Chỉ dành cho các sản phẩm bên ngoài."
 
-#: includes/api/class-wc-rest-products-controller.php:2049
+#: includes/api/class-wc-rest-products-controller.php:2041
 msgid "Product external URL. Only for external products."
 msgstr "URL sản phẩm bên ngoài Chỉ dành cho các sản phẩm bên ngoài."
 
-#: includes/api/class-wc-rest-products-controller.php:2042
+#: includes/api/class-wc-rest-products-controller.php:2034
 msgid "Download type, this controls the schema on the front-end."
 msgstr "Kiểu tải về, phần này sẽ quản lý sơ đồ ở ngoại vi."
 
-#: includes/api/class-wc-rest-products-controller.php:2036
+#: includes/api/class-wc-rest-products-controller.php:2028
 msgid "Number of days that the customer has up to be able to download the product."
 msgstr "Số ngày tối đa mà khách hàng có thể tải sản phẩm về."
 
-#: includes/api/class-wc-rest-products-controller.php:2030
+#: includes/api/class-wc-rest-products-controller.php:2022
 msgid "Amount of times the product can be downloaded."
 msgstr "Số lần sản phẩm có thể tải về."
 
-#: includes/api/class-wc-rest-products-controller.php:2011
-#: includes/api/class-wc-rest-products-controller.php:2485
+#: includes/api/class-wc-rest-products-controller.php:2003
+#: includes/api/class-wc-rest-products-controller.php:2468
 msgid "File MD5 hash."
 msgstr "Mã băm MD5 của tập tin."
 
-#: includes/api/class-wc-rest-products-controller.php:2004
-#: includes/api/class-wc-rest-products-controller.php:2478
+#: includes/api/class-wc-rest-products-controller.php:1996
+#: includes/api/class-wc-rest-products-controller.php:2461
 msgid "List of downloadable files."
 msgstr "Danh sách các tập tin có thể tải về."
 
-#: includes/api/class-wc-rest-products-controller.php:1998
+#: includes/api/class-wc-rest-products-controller.php:1990
 msgid "If the product is downloadable."
 msgstr "Nếu sản phẩm có thể tải về."
 
-#: includes/api/class-wc-rest-products-controller.php:1992
+#: includes/api/class-wc-rest-products-controller.php:1984
 msgid "If the product is virtual."
 msgstr "Nếu sản phẩm là ảo."
 
-#: includes/api/class-wc-rest-products-controller.php:1986
+#: includes/api/class-wc-rest-products-controller.php:1978
 msgid "Amount of sales."
 msgstr "Số lượng giảm giá."
 
-#: includes/api/class-wc-rest-products-controller.php:1980
+#: includes/api/class-wc-rest-products-controller.php:1972
 msgid "Shows if the product can be bought."
 msgstr "HIển thị nếu có thể mua sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:1974
+#: includes/api/class-wc-rest-products-controller.php:1966
 msgid "Shows if the product is on sale."
 msgstr "HIển thị nếu sản phẩm đang được giảm giá."
 
-#: includes/api/class-wc-rest-products-controller.php:1968
+#: includes/api/class-wc-rest-products-controller.php:1960
 msgid "Price formatted in HTML."
 msgstr "Giá được định dạng ở HTML."
 
-#: includes/api/class-wc-rest-products-controller.php:1963
-#: includes/api/class-wc-rest-products-controller.php:2444
+#: includes/api/class-wc-rest-products-controller.php:1955
+#: includes/api/class-wc-rest-products-controller.php:2427
 msgid "End data of sale price."
 msgstr "Ngày kết thúc giảm giá."
 
-#: includes/api/class-wc-rest-products-controller.php:1958
-#: includes/api/class-wc-rest-products-controller.php:2439
+#: includes/api/class-wc-rest-products-controller.php:1950
+#: includes/api/class-wc-rest-products-controller.php:2422
 msgid "Start date of sale price."
 msgstr "Ngày bắt đầu giảm giá."
 
-#: includes/api/class-wc-rest-products-controller.php:1953
+#: includes/api/class-wc-rest-products-controller.php:1945
 msgid "Product sale price."
 msgstr "Giá sản phẩm khi giảm."
 
-#: includes/api/class-wc-rest-products-controller.php:1948
+#: includes/api/class-wc-rest-products-controller.php:1940
 msgid "Product regular price."
 msgstr "Giá sản phẩm thường bán."
 
-#: includes/api/class-wc-rest-products-controller.php:1942
+#: includes/api/class-wc-rest-products-controller.php:1934
 msgid "Current product price."
 msgstr "Giá sản phẩm hiện tại."
 
-#: includes/api/class-wc-rest-products-controller.php:1937
-#: includes/api/class-wc-rest-products-controller.php:2418
+#: includes/api/class-wc-rest-products-controller.php:1929
+#: includes/api/class-wc-rest-products-controller.php:2401
 msgid "Unique identifier."
 msgstr "Định danh duy nhât."
 
-#: includes/api/class-wc-rest-products-controller.php:1932
+#: includes/api/class-wc-rest-products-controller.php:1924
 msgid "Product short description."
 msgstr "Mô tả ngắn sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:1927
+#: includes/api/class-wc-rest-products-controller.php:1919
 msgid "Product description."
 msgstr "Mô tả sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:1920
+#: includes/api/class-wc-rest-products-controller.php:1912
 msgid "Catalog visibility."
 msgstr "Cách hiển thị danh mục."
 
-#: includes/api/class-wc-rest-products-controller.php:1914
+#: includes/api/class-wc-rest-products-controller.php:1906
 msgid "Featured product."
 msgstr "Sản phẩm nổi bật."
 
-#: includes/api/class-wc-rest-products-controller.php:1907
+#: includes/api/class-wc-rest-products-controller.php:1899
 msgid "Product status (post status)."
 msgstr "Tình trạng sản phẩm (tình trang bài)."
 
-#: includes/api/class-wc-rest-products-controller.php:1900
+#: includes/api/class-wc-rest-products-controller.php:1892
 msgid "Product type."
 msgstr "Loại sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:1894
+#: includes/api/class-wc-rest-products-controller.php:1886
 msgid "The date the product was last modified, in the site's timezone."
 msgstr "Ngày sản phẩm chỉnh sửa lần cuối, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-products-controller.php:1888
+#: includes/api/class-wc-rest-products-controller.php:1880
 msgid "The date the product was created, in the site's timezone."
 msgstr "Ngày tạo sản phẩm, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-products-controller.php:1881
+#: includes/api/class-wc-rest-products-controller.php:1873
 msgid "Product URL."
 msgstr "URL sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:1876
+#: includes/api/class-wc-rest-products-controller.php:1868
 msgid "Product slug."
 msgstr "Đưỡng dẫn tĩnh sản phẩm."
 
-#: includes/api/class-wc-rest-products-controller.php:976
-#: includes/api/class-wc-rest-products-controller.php:1384
+#: includes/api/class-wc-rest-products-controller.php:968
+#: includes/api/class-wc-rest-products-controller.php:1376
 msgid "The SKU already exists on another product."
 msgstr "SKU đã tồn tại trong một sản phẩm khác rồi."
 
 #: includes/api/class-wc-rest-product-tags-controller.php:100
-#: includes/api/class-wc-rest-products-controller.php:2256
+#: includes/api/class-wc-rest-products-controller.php:2239
 msgid "Tag name."
 msgstr "Tên thẻ:"
 
@@ -1729,64 +1731,64 @@ msgstr "Tên thẻ:"
 msgid "Shipping class name."
 msgstr "Tên loại hình giao hàng."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:310
+#: includes/api/class-wc-rest-product-reviews-controller.php:250
 msgid "Shows if the reviewer bought the product or not."
 msgstr "Cho biết người đánh giá đã mua sản phẩm hay chưa."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:304
+#: includes/api/class-wc-rest-product-reviews-controller.php:244
 msgid "Reviewer email."
 msgstr "Email của người đánh giá."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:298
+#: includes/api/class-wc-rest-product-reviews-controller.php:238
 msgid "Reviewer name."
 msgstr "Tên người đánh giá."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:292
+#: includes/api/class-wc-rest-product-reviews-controller.php:232
 msgid "Review rating (0 to 5)."
 msgstr "Đánh giá xếp hạng (0 đến 5)."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:286
+#: includes/api/class-wc-rest-product-reviews-controller.php:226
 msgid "The date the review was created, in the site's timezone."
 msgstr "Ngày tạo đánh giá, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-product-reviews-controller.php:166
-#: includes/api/class-wc-rest-product-reviews-controller.php:191
+#: includes/api/class-wc-rest-product-reviews-controller.php:106
+#: includes/api/class-wc-rest-product-reviews-controller.php:131
 msgid "Invalid product id."
 msgstr "ID sản phẩm không hợp lệ."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:243
-#: includes/api/class-wc-rest-products-controller.php:2306
-#: includes/api/class-wc-rest-products-controller.php:2635
+#: includes/api/class-wc-rest-products-controller.php:2289
+#: includes/api/class-wc-rest-products-controller.php:2618
 msgid "Image alternative text."
 msgstr "Nội dung ảnh thay thế."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:238
-#: includes/api/class-wc-rest-products-controller.php:2301
-#: includes/api/class-wc-rest-products-controller.php:2630
+#: includes/api/class-wc-rest-products-controller.php:2284
+#: includes/api/class-wc-rest-products-controller.php:2613
 msgid "Image name."
 msgstr "Tên ảnh."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:232
-#: includes/api/class-wc-rest-products-controller.php:2295
-#: includes/api/class-wc-rest-products-controller.php:2624
+#: includes/api/class-wc-rest-products-controller.php:2278
+#: includes/api/class-wc-rest-products-controller.php:2607
 msgid "Image URL."
 msgstr "Đường dẫn hình ảnh."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:226
-#: includes/api/class-wc-rest-products-controller.php:2289
-#: includes/api/class-wc-rest-products-controller.php:2618
+#: includes/api/class-wc-rest-products-controller.php:2272
+#: includes/api/class-wc-rest-products-controller.php:2601
 msgid "The date the image was last modified, in the site's timezone."
 msgstr "Ngày sửa ảnh lần cuối, thuộc múi giờ của trang web."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:220
-#: includes/api/class-wc-rest-products-controller.php:2283
-#: includes/api/class-wc-rest-products-controller.php:2612
+#: includes/api/class-wc-rest-products-controller.php:2266
+#: includes/api/class-wc-rest-products-controller.php:2595
 msgid "The date the image was created, in the site's timezone."
 msgstr "Ngày tạo ảnh, thuộc múi giờ của trang web."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:215
-#: includes/api/class-wc-rest-products-controller.php:2278
-#: includes/api/class-wc-rest-products-controller.php:2607
+#: includes/api/class-wc-rest-products-controller.php:2261
+#: includes/api/class-wc-rest-products-controller.php:2590
 msgid "Image ID."
 msgstr "ID ảnh."
 
@@ -1803,907 +1805,891 @@ msgid "The id for the parent of the resource."
 msgstr "Id dành cho nguồn tài nguyên."
 
 #: includes/api/class-wc-rest-product-categories-controller.php:174
-#: includes/api/class-wc-rest-products-controller.php:2229
+#: includes/api/class-wc-rest-products-controller.php:2212
 msgid "Category name."
 msgstr "Tên danh mục."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:648
+#: includes/api/class-wc-rest-product-attributes-controller.php:639
 msgid "Slug \"%s\" is already in use."
 msgstr "Đường dẫn tĩnh \"%s\" đã được sử dụng."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:646
+#: includes/api/class-wc-rest-product-attributes-controller.php:637
 msgid "Slug \"%s\" is not allowed because it is a reserved term."
 msgstr "Đường dẫn tĩnh \"%s\" không hợp lệ vì nó là một thuật ngữ dành riêng."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:644
+#: includes/api/class-wc-rest-product-attributes-controller.php:635
 msgid "Slug \"%s\" is too long (28 characters max)."
 msgstr "Đường dẫn tĩnh \"%s\" quá dài (tối đa 28 ký tự)."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:570
+#: includes/api/class-wc-rest-product-attributes-controller.php:561
 msgid "Enable/Disable attribute archives."
 msgstr "Bật/Tắt thuộc tính lưu trữ."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:563
+#: includes/api/class-wc-rest-product-attributes-controller.php:554
 msgid "Default sort order."
 msgstr "Thứ tự sắp xếp mặc định."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:556
+#: includes/api/class-wc-rest-product-attributes-controller.php:547
 msgid "Type of attribute."
 msgstr "Loại thuộc tính."
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:540
-#: includes/api/class-wc-rest-products-controller.php:2331
-#: includes/api/class-wc-rest-products-controller.php:2373
-#: includes/api/class-wc-rest-products-controller.php:2659
+#: includes/api/class-wc-rest-product-attributes-controller.php:531
+#: includes/api/class-wc-rest-products-controller.php:2314
+#: includes/api/class-wc-rest-products-controller.php:2356
+#: includes/api/class-wc-rest-products-controller.php:2642
 msgid "Attribute name."
 msgstr "Tên thuộc tính."
 
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:230
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:141
 #: includes/api/class-wc-rest-product-categories-controller.php:255
 #: includes/api/class-wc-rest-product-shipping-classes-controller.php:124
 #: includes/api/class-wc-rest-product-tags-controller.php:124
 msgid "Number of published products for the resource."
 msgstr "Số lượng sản phẩm đã phát hành dành cho tài nguyên."
 
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:225
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:136
 #: includes/api/class-wc-rest-product-categories-controller.php:250
 msgid "Menu order, used to custom sort the resource."
 msgstr "Trình tự menu, được sử dụng để tùy chỉnh cách sắp xếp tài nguyên."
 
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:217
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:128
 #: includes/api/class-wc-rest-product-categories-controller.php:195
 #: includes/api/class-wc-rest-product-shipping-classes-controller.php:116
 #: includes/api/class-wc-rest-product-tags-controller.php:116
 msgid "HTML description of the resource."
 msgstr "Phần mô tả dạng HTML của tài nguyên."
 
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:209
-#: includes/api/class-wc-rest-product-attributes-controller.php:548
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:120
+#: includes/api/class-wc-rest-product-attributes-controller.php:539
 #: includes/api/class-wc-rest-product-categories-controller.php:182
 #: includes/api/class-wc-rest-product-shipping-classes-controller.php:108
 #: includes/api/class-wc-rest-product-tags-controller.php:108
 msgid "An alphanumeric identifier for the resource unique to its type."
 msgstr "Từ định danh dạng chữ-số cho nguồn tài nguyên duy nhất thuộc loại đó."
 
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:201
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:112
 msgid "Term name."
 msgstr "Tên thuật  ngữ."
 
-#: includes/api/class-wc-rest-orders-controller.php:1836
+#: includes/api/class-wc-rest-orders-controller.php:1830
 msgid "Limit result set to orders assigned a specific product."
 msgstr "Giới hạn kết quả trong phạm vi các đơn hàng được chỉ định một sản phẩm cụ thể."
 
-#: includes/api/class-wc-rest-orders-controller.php:1830
+#: includes/api/class-wc-rest-orders-controller.php:1824
 msgid "Limit result set to orders assigned a specific customer."
 msgstr "Giới hạn kết quả trong phạm vi các đơn hàng được chỉ định một khách hàng cụ thể."
 
-#: includes/api/class-wc-rest-orders-controller.php:1823
+#: includes/api/class-wc-rest-orders-controller.php:1817
 msgid "Limit result set to orders assigned a specific status."
 msgstr "Giới hạn kết quả trong phạm vi các đơn hàng được chỉ định một trạng thái cụ thể."
 
-#: includes/api/class-wc-rest-orders-controller.php:1799
+#: includes/api/class-wc-rest-orders-controller.php:1793
 msgid "Refund total."
 msgstr "Tổng số tiền hoàn trả."
 
-#: includes/api/class-wc-rest-orders-controller.php:1793
+#: includes/api/class-wc-rest-orders-controller.php:1787
 msgid "Refund reason."
 msgstr "Lý do hoàn tiền."
 
-#: includes/api/class-wc-rest-orders-controller.php:1787
+#: includes/api/class-wc-rest-orders-controller.php:1781
 msgid "Refund ID."
 msgstr "ID hoàn tiền."
 
-#: includes/api/class-wc-rest-orders-controller.php:1779
+#: includes/api/class-wc-rest-orders-controller.php:1773
 msgid "List of refunds."
 msgstr "Danh sách hoàn trả"
 
-#: includes/api/class-wc-rest-orders-controller.php:1770
+#: includes/api/class-wc-rest-orders-controller.php:1764
 msgid "Discount total tax."
 msgstr "Tổng số thuế được giảm giá."
 
-#: includes/api/class-wc-rest-orders-controller.php:1765
+#: includes/api/class-wc-rest-orders-controller.php:1759
 msgid "Discount total."
 msgstr "Tổng phí khuyến mãi"
 
-#: includes/api/class-wc-rest-orders-controller.php:1747
+#: includes/api/class-wc-rest-orders-controller.php:1741
 msgid "Coupons line data."
 msgstr "Dữ liệu về dòng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-orders-controller.php:1700
+#: includes/api/class-wc-rest-orders-controller.php:1694
 msgid "Tax status of fee."
 msgstr "Trạng thái thuế phí."
 
-#: includes/api/class-wc-rest-orders-controller.php:1695
+#: includes/api/class-wc-rest-orders-controller.php:1689
 msgid "Tax class of fee."
 msgstr "Lớp thuế phí."
 
-#: includes/api/class-wc-rest-orders-controller.php:1690
+#: includes/api/class-wc-rest-orders-controller.php:1684
 msgid "Fee name."
 msgstr "Tên lệ phí."
 
-#: includes/api/class-wc-rest-orders-controller.php:1677
+#: includes/api/class-wc-rest-orders-controller.php:1671
 msgid "Fee lines data."
 msgstr "Dữ liệu về dòng phí."
 
-#: includes/api/class-wc-rest-orders-controller.php:1635
+#: includes/api/class-wc-rest-orders-controller.php:1629
 msgid "Shipping method ID."
 msgstr "ID phương thức giao hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1630
+#: includes/api/class-wc-rest-orders-controller.php:1624
 msgid "Shipping method name."
 msgstr "Tên phương thức giao hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1617
+#: includes/api/class-wc-rest-orders-controller.php:1611
 msgid "Shipping lines data."
 msgstr "Dữ liệu về tuyến giao hàng"
 
-#: includes/api/class-wc-rest-orders-controller.php:1608
+#: includes/api/class-wc-rest-orders-controller.php:1602
 msgid "Shipping tax total."
 msgstr "Tổng thuế vận chuyển."
 
-#: includes/api/class-wc-rest-orders-controller.php:1602
+#: includes/api/class-wc-rest-orders-controller.php:1596
 msgid "Tax total (not including shipping taxes)."
 msgstr "Tổng thuế (không gồm thuế vận chuyển)."
 
-#: includes/api/class-wc-rest-orders-controller.php:1596
+#: includes/api/class-wc-rest-orders-controller.php:1590
 msgid "Show if is a compound tax rate."
 msgstr "Hiển thị nếu là thuế suất gộp."
 
-#: includes/api/class-wc-rest-orders-controller.php:1590
+#: includes/api/class-wc-rest-orders-controller.php:1584
 msgid "Tax rate label."
 msgstr "Nhãn thuế suất."
 
-#: includes/api/class-wc-rest-orders-controller.php:1578
+#: includes/api/class-wc-rest-orders-controller.php:1572
 msgid "Tax rate code."
 msgstr "Mã thuế suất."
 
-#: includes/api/class-wc-rest-orders-controller.php:1564
+#: includes/api/class-wc-rest-orders-controller.php:1558
 msgid "Tax lines data."
 msgstr "Dữ liệu về dòng thuế."
 
-#: includes/api/class-wc-rest-orders-controller.php:1425
+#: includes/api/class-wc-rest-orders-controller.php:1419
 msgid "MD5 hash of cart items to ensure orders are not modified."
 msgstr "Giá trị tổng kiểm MD5 của các mục trong giỏ hàng để đảm bảo các đơn hàng không bị chỉnh sửa."
 
-#: includes/api/class-wc-rest-orders-controller.php:1419
+#: includes/api/class-wc-rest-orders-controller.php:1413
 msgid "The date the order has been paid, in the site's timezone."
 msgstr "Ngày thanh toán đơn hàng, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-orders-controller.php:1413
+#: includes/api/class-wc-rest-orders-controller.php:1407
 msgid "The date the order was completed, in the site's timezone."
 msgstr "Ngày hoàn thành đơn hàng, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-orders-controller.php:1408
+#: includes/api/class-wc-rest-orders-controller.php:1402
 msgid "Note left by customer during checkout."
 msgstr "Ghi chú của khách hàng khi thanh toán."
 
-#: includes/api/class-wc-rest-orders-controller.php:1402
+#: includes/api/class-wc-rest-orders-controller.php:1396
 msgid "Shows where the order was created."
 msgstr "Hiển thị địa điểm tạo đơn hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1396
+#: includes/api/class-wc-rest-orders-controller.php:1390
 msgid "User agent of the customer."
 msgstr "Chuỗi nhận dạng của khách hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1390
+#: includes/api/class-wc-rest-orders-controller.php:1384
 msgid "Customer's IP address."
 msgstr "Địa chỉ IP khách hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1385
+#: includes/api/class-wc-rest-orders-controller.php:1379
 msgid "Unique transaction ID."
 msgstr "ID giao dịch riêng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1379
+#: includes/api/class-wc-rest-orders-controller.php:1373
 msgid "Define if the order is paid. It will set the status to processing and reduce stock items."
 msgstr "Xác định xem đơn hàng đã được thanh toán hay chưa. Nó sẽ đặt trạng thái thành đang xử lý và giảm lượng hàng tồn kho."
 
-#: includes/api/class-wc-rest-orders-controller.php:1374
+#: includes/api/class-wc-rest-orders-controller.php:1368
 msgid "Payment method title."
 msgstr "Tên phương thức thanh toán."
 
-#: includes/api/class-wc-rest-orders-controller.php:1369
+#: includes/api/class-wc-rest-orders-controller.php:1363
 msgid "Payment method ID."
 msgstr "Cần bổ sung ID phương thức thanh toán"
 
-#: includes/api/class-wc-rest-orders-controller.php:1317
+#: includes/api/class-wc-rest-orders-controller.php:1311
 msgid "Shipping address."
 msgstr "Địa chỉ giao hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1299
-#: includes/api/class-wc-rest-orders-controller.php:1362
+#: includes/api/class-wc-rest-orders-controller.php:1293
+#: includes/api/class-wc-rest-orders-controller.php:1356
 msgid "Country code in ISO 3166-1 alpha-2 format."
 msgstr "Mã nước phải ở định dạng ISO 3166-1 alpha-2."
 
-#: includes/api/class-wc-rest-orders-controller.php:1254
+#: includes/api/class-wc-rest-orders-controller.php:1248
 msgid "Billing address."
 msgstr "Địa chỉ thanh toán."
 
-#: includes/api/class-wc-rest-orders-controller.php:1248
+#: includes/api/class-wc-rest-orders-controller.php:1242
 msgid "Sum of all taxes."
 msgstr "Tổng tất cả các loại thuế."
 
-#: includes/api/class-wc-rest-orders-controller.php:1242
+#: includes/api/class-wc-rest-orders-controller.php:1236
 msgid "Grand total."
 msgstr "Tổng cộng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1236
+#: includes/api/class-wc-rest-orders-controller.php:1230
 msgid "Sum of line item taxes only."
 msgstr "Chỉ tổng các loại thuế theo mục dòng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1230
+#: includes/api/class-wc-rest-orders-controller.php:1224
 msgid "Total shipping tax amount for the order."
 msgstr "Tổng số tiền thuế vận chuyển cho đơn đặt hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1224
+#: includes/api/class-wc-rest-orders-controller.php:1218
 msgid "Total shipping amount for the order."
 msgstr "Tổng số tiền vận chuyển của đơn đặt hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1218
+#: includes/api/class-wc-rest-orders-controller.php:1212
 msgid "Total discount tax amount for the order."
 msgstr "Tổng số tiền thuế chiết khấu dành cho đơn hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1212
+#: includes/api/class-wc-rest-orders-controller.php:1206
 msgid "Total discount amount for the order."
 msgstr "Tổng số tiền chiết khấu dành cho đơn hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1206
+#: includes/api/class-wc-rest-orders-controller.php:1200
 msgid "User ID who owns the order. 0 for guests."
 msgstr "ID người dùng sở hữu đơn hàng. 0 cho khách."
 
-#: includes/api/class-wc-rest-orders-controller.php:1200
+#: includes/api/class-wc-rest-orders-controller.php:1194
 msgid "The date the order was last modified, in the site's timezone."
 msgstr "Ngày đơn hàng được chỉnh sửa lần cuối, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-orders-controller.php:1194
+#: includes/api/class-wc-rest-orders-controller.php:1188
 msgid "The date the order was created, in the site's timezone."
 msgstr "Ngày tạo đơn hàng, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-orders-controller.php:1188
+#: includes/api/class-wc-rest-orders-controller.php:1182
 msgid "Shows if the prices included tax during checkout."
 msgstr "Hiển thị nếu giá được bao gồm thuế trong lúc thanh toán."
 
-#: includes/api/class-wc-rest-orders-controller.php:1182
+#: includes/api/class-wc-rest-orders-controller.php:1176
 msgid "Version of WooCommerce when the order was made."
 msgstr "Phiên bản WooCommerce khi đặt hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1175
+#: includes/api/class-wc-rest-orders-controller.php:1169
 msgid "Currency the order was created with, in ISO format."
 msgstr "Loại tiền tệ mà đơn hàng được tạo cùng ở định dạnh ISO."
 
-#: includes/api/class-wc-rest-orders-controller.php:1156
+#: includes/api/class-wc-rest-orders-controller.php:1150
 msgid "Order status."
 msgstr "Tình trạng đặt hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:1151
+#: includes/api/class-wc-rest-orders-controller.php:1145
 msgid "Parent order ID."
 msgstr "ID các đơn hàng gốc"
 
-#: includes/api/class-wc-rest-orders-controller.php:947
+#: includes/api/class-wc-rest-orders-controller.php:941
 msgid "Order item ID provided is not associated with order."
 msgstr "ID mục đặt hàng được cung cấp không có liên kết với đơn hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:860
+#: includes/api/class-wc-rest-orders-controller.php:854
 msgid "Cannot update coupon, try again."
 msgstr "Không thể cập nhật phiếu giảm giá, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:843
+#: includes/api/class-wc-rest-orders-controller.php:837
 msgid "Cannot create coupon, try again."
 msgstr "Không thể tạo phiếu giảm giá, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:837
+#: includes/api/class-wc-rest-orders-controller.php:831
 msgid "Coupon code is required."
 msgstr "Bắt buộc phải có Mã giảm giá."
 
-#: includes/api/class-wc-rest-orders-controller.php:831
+#: includes/api/class-wc-rest-orders-controller.php:825
 msgid "Coupon discount must be a positive amount."
 msgstr "Mã khuyến mãi phải là số thực."
 
-#: includes/api/class-wc-rest-orders-controller.php:815
+#: includes/api/class-wc-rest-orders-controller.php:809
 msgid "Cannot update fee, try again."
 msgstr "Không thể cập nhật phí, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:790
+#: includes/api/class-wc-rest-orders-controller.php:784
 msgid "Cannot create fee, try again."
 msgstr "Không thể tạo phí, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:776
+#: includes/api/class-wc-rest-orders-controller.php:770
 msgid "Fee tax class is required when fee is taxable."
 msgstr "Cần phải áp dụng loại thuế phí khi phí phải trả thuế."
 
-#: includes/api/class-wc-rest-orders-controller.php:760
+#: includes/api/class-wc-rest-orders-controller.php:754
 msgid "Fee name is required."
 msgstr "Tên phí là bắt buộc"
 
-#: includes/api/class-wc-rest-orders-controller.php:742
+#: includes/api/class-wc-rest-orders-controller.php:736
 msgid "Cannot update shipping method, try again."
 msgstr "Không thể cập nhật phương thức giao hàng, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:721
+#: includes/api/class-wc-rest-orders-controller.php:715
 msgid "Cannot create shipping method, try again."
 msgstr "Không thể tạo phương thức giao hàng, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:713
+#: includes/api/class-wc-rest-orders-controller.php:707
 msgid "Shipping method ID is required."
 msgstr "Cần có ID phương thức giao hàng."
 
-#: includes/api/class-wc-rest-orders-controller.php:707
+#: includes/api/class-wc-rest-orders-controller.php:701
 msgid "Shipping total must be a positive amount."
 msgstr "Tổng số hàng giao phải là số dương."
 
-#: includes/api/class-wc-rest-orders-controller.php:691
+#: includes/api/class-wc-rest-orders-controller.php:685
 msgid "Cannot update line item, try again."
 msgstr "Không thể cập nhật mục dòng, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:686
+#: includes/api/class-wc-rest-orders-controller.php:680
 msgid "Cannot create line item, try again."
 msgstr "Không thể tạo mục dòng, thử lại."
 
-#: includes/api/class-wc-rest-orders-controller.php:650
+#: includes/api/class-wc-rest-orders-controller.php:644
 msgid "Product quantity is required."
 msgstr "Số lượng sản phẩm là bắt buộc."
 
-#: includes/api/class-wc-rest-orders-controller.php:645
+#: includes/api/class-wc-rest-orders-controller.php:639
 msgid "Product quantity must be a positive float."
 msgstr "Số lượng sản phẩm phải là số dương."
 
-#: includes/api/class-wc-rest-orders-controller.php:640
+#: includes/api/class-wc-rest-orders-controller.php:634
 msgid "Product is invalid."
 msgstr "Sản phẩm không hợp lệ."
 
-#: includes/api/class-wc-rest-orders-controller.php:632
+#: includes/api/class-wc-rest-orders-controller.php:626
 msgid "Product ID or variation ID provided does not match this line item."
 msgstr "ID sản phẩm hoặc ID sản phẩm biến thể được cung cấp không khớp với mục dòng này."
 
-#: includes/api/class-wc-rest-orders-controller.php:615
+#: includes/api/class-wc-rest-orders-controller.php:609
 msgid "Product ID or SKU is required."
 msgstr "ID sản phẩm hoặc SKU là bắt buộc."
 
-#: includes/api/class-wc-rest-orders-controller.php:514
+#: includes/api/class-wc-rest-orders-controller.php:508
 msgid "Cannot create order: %s."
 msgstr "Không thể tạo đơn hàng: %s."
 
-#: includes/api/class-wc-rest-orders-controller.php:501
-#: includes/api/class-wc-rest-orders-controller.php:995
+#: includes/api/class-wc-rest-orders-controller.php:495
+#: includes/api/class-wc-rest-orders-controller.php:989
 msgid "Customer ID is invalid."
 msgstr "ID khách hàng không chính xác."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:533
-#: includes/api/class-wc-rest-orders-controller.php:1843
+#: includes/api/class-wc-rest-order-refunds-controller.php:517
+#: includes/api/class-wc-rest-orders-controller.php:1837
 msgid "Number of decimal points to use in each resource."
 msgstr "Số chữ số thập phân được sử dụng trong mỗi tài nguyên"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:506
-#: includes/api/class-wc-rest-orders-controller.php:1552
+#: includes/api/class-wc-rest-order-refunds-controller.php:490
+#: includes/api/class-wc-rest-orders-controller.php:1546
 msgid "Meta value."
 msgstr "Giá trị meta."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:500
-#: includes/api/class-wc-rest-orders-controller.php:1546
+#: includes/api/class-wc-rest-order-refunds-controller.php:484
+#: includes/api/class-wc-rest-orders-controller.php:1540
 msgid "Meta label."
 msgstr "Nhãn meta."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:494
-#: includes/api/class-wc-rest-orders-controller.php:1540
+#: includes/api/class-wc-rest-order-refunds-controller.php:478
+#: includes/api/class-wc-rest-orders-controller.php:1534
 msgid "Meta key."
 msgstr "Khóa meta."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:486
-#: includes/api/class-wc-rest-orders-controller.php:1532
+#: includes/api/class-wc-rest-order-refunds-controller.php:470
+#: includes/api/class-wc-rest-orders-controller.php:1526
 msgid "Line item meta data."
 msgstr "Siêu dữ liệu mục dòng."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:477
-#: includes/api/class-wc-rest-orders-controller.php:1523
-#: includes/api/class-wc-rest-orders-controller.php:1735
+#: includes/api/class-wc-rest-order-refunds-controller.php:461
+#: includes/api/class-wc-rest-orders-controller.php:1517
+#: includes/api/class-wc-rest-orders-controller.php:1729
 msgid "Tax subtotal."
 msgstr "Tổng thuế phụ."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:471
-#: includes/api/class-wc-rest-orders-controller.php:1517
-#: includes/api/class-wc-rest-orders-controller.php:1665
-#: includes/api/class-wc-rest-orders-controller.php:1729
+#: includes/api/class-wc-rest-order-refunds-controller.php:455
+#: includes/api/class-wc-rest-orders-controller.php:1511
+#: includes/api/class-wc-rest-orders-controller.php:1659
+#: includes/api/class-wc-rest-orders-controller.php:1723
 msgid "Tax total."
 msgstr "Tổng thuế."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:457
-#: includes/api/class-wc-rest-orders-controller.php:1503
-#: includes/api/class-wc-rest-orders-controller.php:1651
-#: includes/api/class-wc-rest-orders-controller.php:1715
+#: includes/api/class-wc-rest-order-refunds-controller.php:441
+#: includes/api/class-wc-rest-orders-controller.php:1497
+#: includes/api/class-wc-rest-orders-controller.php:1645
+#: includes/api/class-wc-rest-orders-controller.php:1709
 msgid "Line taxes."
 msgstr "Các mức thuế"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:452
-#: includes/api/class-wc-rest-orders-controller.php:1498
-#: includes/api/class-wc-rest-orders-controller.php:1645
-#: includes/api/class-wc-rest-orders-controller.php:1710
+#: includes/api/class-wc-rest-order-refunds-controller.php:436
+#: includes/api/class-wc-rest-orders-controller.php:1492
+#: includes/api/class-wc-rest-orders-controller.php:1639
+#: includes/api/class-wc-rest-orders-controller.php:1704
 msgid "Line total tax (after discounts)."
 msgstr "Tính tổng thuế theo dòng (sau khi chiết khấu)"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:447
-#: includes/api/class-wc-rest-orders-controller.php:1493
-#: includes/api/class-wc-rest-orders-controller.php:1640
-#: includes/api/class-wc-rest-orders-controller.php:1705
+#: includes/api/class-wc-rest-order-refunds-controller.php:431
+#: includes/api/class-wc-rest-orders-controller.php:1487
+#: includes/api/class-wc-rest-orders-controller.php:1634
+#: includes/api/class-wc-rest-orders-controller.php:1699
 msgid "Line total (after discounts)."
 msgstr "Tính tổng dòng (sau khi chiết khấu)"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:442
-#: includes/api/class-wc-rest-orders-controller.php:1488
+#: includes/api/class-wc-rest-order-refunds-controller.php:426
+#: includes/api/class-wc-rest-orders-controller.php:1482
 msgid "Line subtotal tax (before discounts)."
 msgstr "Tổng thuế phụ theo dòng (trước khi chiết khấu)"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:437
-#: includes/api/class-wc-rest-orders-controller.php:1483
+#: includes/api/class-wc-rest-order-refunds-controller.php:421
+#: includes/api/class-wc-rest-orders-controller.php:1477
 msgid "Line subtotal (before discounts)."
 msgstr "Tính tổng phụ theo dòng (trước khi chiết khấu)"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:431
-#: includes/api/class-wc-rest-orders-controller.php:1477
+#: includes/api/class-wc-rest-order-refunds-controller.php:415
+#: includes/api/class-wc-rest-orders-controller.php:1471
 msgid "Product price."
 msgstr "Giá sản phẩm."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:425
-#: includes/api/class-wc-rest-orders-controller.php:1471
+#: includes/api/class-wc-rest-order-refunds-controller.php:409
+#: includes/api/class-wc-rest-orders-controller.php:1465
 msgid "Tax class of product."
 msgstr "Loại thuế sản phẩm."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:420
-#: includes/api/class-wc-rest-orders-controller.php:1466
+#: includes/api/class-wc-rest-order-refunds-controller.php:404
+#: includes/api/class-wc-rest-orders-controller.php:1460
 msgid "Quantity ordered."
 msgstr "Số lượng đã đặt hàng."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:415
-#: includes/api/class-wc-rest-orders-controller.php:1461
+#: includes/api/class-wc-rest-order-refunds-controller.php:399
+#: includes/api/class-wc-rest-orders-controller.php:1455
 msgid "Variation ID, if applicable."
 msgstr "ID sản phẩm biến thể, nếu có."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:398
-#: includes/api/class-wc-rest-orders-controller.php:1444
-#: includes/api/class-wc-rest-products-controller.php:1871
+#: includes/api/class-wc-rest-order-refunds-controller.php:382
+#: includes/api/class-wc-rest-orders-controller.php:1438
+#: includes/api/class-wc-rest-products-controller.php:1863
 #: includes/api/class-wc-rest-report-top-sellers-controller.php:152
 msgid "Product name."
 msgstr "Tên sản phẩm."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:392
-#: includes/api/class-wc-rest-orders-controller.php:1438
-#: includes/api/class-wc-rest-orders-controller.php:1572
-#: includes/api/class-wc-rest-orders-controller.php:1624
-#: includes/api/class-wc-rest-orders-controller.php:1684
-#: includes/api/class-wc-rest-orders-controller.php:1754
+#: includes/api/class-wc-rest-order-refunds-controller.php:376
+#: includes/api/class-wc-rest-orders-controller.php:1432
+#: includes/api/class-wc-rest-orders-controller.php:1566
+#: includes/api/class-wc-rest-orders-controller.php:1618
+#: includes/api/class-wc-rest-orders-controller.php:1678
+#: includes/api/class-wc-rest-orders-controller.php:1748
 msgid "Item ID."
 msgstr "ID mục."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:385
-#: includes/api/class-wc-rest-orders-controller.php:1431
+#: includes/api/class-wc-rest-order-refunds-controller.php:369
+#: includes/api/class-wc-rest-orders-controller.php:1425
 msgid "Line items data."
 msgstr "Dữ liệu mục dòng."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:380
+#: includes/api/class-wc-rest-order-refunds-controller.php:364
 msgid "Reason for refund."
 msgstr "Lý do hoàn tiền."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:375
+#: includes/api/class-wc-rest-order-refunds-controller.php:359
 msgid "Refund amount."
 msgstr "Số tiền hoàn lại."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:369
+#: includes/api/class-wc-rest-order-refunds-controller.php:353
 msgid "The date the order refund was created, in the site's timezone."
 msgstr "Ngày tạo giao dịch hoàn tiền đơn hàng, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:325
+#: includes/api/class-wc-rest-order-refunds-controller.php:309
 msgid "An error occurred while attempting to create the refund using the payment gateway API."
 msgstr "Đã xảy ra lỗi khi cố gắng tạo giao dịch hoàn tiền bằng cách sử dụng API của cổng thanh toán."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:308
+#: includes/api/class-wc-rest-order-refunds-controller.php:292
 msgid "Cannot create order refund, please try again."
 msgstr "Không tạo được giao dịch hoàn tiền đơn hàng, hãy thử lại."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:292
+#: includes/api/class-wc-rest-order-refunds-controller.php:276
 msgid "Refund amount must be greater than zero."
 msgstr "Khoản tiền hoàn trả phải lớn hơn 0."
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:288
+#: includes/api/class-wc-rest-order-refunds-controller.php:272
 msgid "Order is invalid"
 msgstr "Đơn hàng không hợp lệ"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:134
+#: includes/api/class-wc-rest-order-refunds-controller.php:118
 msgid "Invalid order refund ID."
 msgstr "ID hoàn tiền đơn hàng không hợp lệ."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:183
-#: includes/api/class-wc-rest-order-refunds-controller.php:128
+#: includes/api/class-wc-rest-order-notes-controller.php:164
+#: includes/api/class-wc-rest-order-refunds-controller.php:112
 msgid "Invalid order ID."
 msgstr "ID đơn hàng không hợp lệ."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:416
+#: includes/api/class-wc-rest-order-notes-controller.php:397
 msgid "Shows/define if the note is only for reference or for the customer (the user will be notified)."
 msgstr "Xác định xem liệu ghi chủ chỉ dùng để tham khảo hay dành cho khách hàng (người dùng sẽ được thông báo)."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:411
+#: includes/api/class-wc-rest-order-notes-controller.php:392
 msgid "Order note."
 msgstr "Ghi chú đơn hàng."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:405
+#: includes/api/class-wc-rest-order-notes-controller.php:386
 msgid "The date the order note was created, in the site's timezone."
 msgstr "Ngày tạo ghi chú đơn hàng, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:293
-#: includes/api/class-wc-rest-webhooks-controller.php:312
+#: includes/api/class-wc-rest-order-notes-controller.php:274
+#: includes/api/class-wc-rest-webhooks-controller.php:299
 msgid "Webhooks do not support trashing."
 msgstr "Nhật ký web không hỗ trợ xóa hẳn."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:231
+#: includes/api/class-wc-rest-order-notes-controller.php:212
 msgid "Cannot create order note, please try again."
 msgstr "Không tạo được ghi chú đơn hàng, hãy thử lại."
 
-#: includes/api/class-wc-rest-order-notes-controller.php:222
-#: includes/api/class-wc-rest-order-notes-controller.php:266
-#: includes/api/class-wc-rest-order-notes-controller.php:299
+#: includes/api/class-wc-rest-order-notes-controller.php:203
+#: includes/api/class-wc-rest-order-notes-controller.php:247
+#: includes/api/class-wc-rest-order-notes-controller.php:280
 msgid "Invalid order id."
 msgstr "Id đơn hàng không hợp lệ."
 
-#: includes/api/class-wc-rest-customers-controller.php:908
+#: includes/api/class-wc-rest-customers-controller.php:885
 msgid "Limit result set to resources with a specific role."
 msgstr "Giới hạn kết quả trong phạm vi các tài nguyên có kèm theo một mã cụ thể."
 
-#: includes/api/class-wc-rest-customers-controller.php:902
+#: includes/api/class-wc-rest-customers-controller.php:879
 msgid "Limit result set to resources with a specific email."
 msgstr "Giới hạn kết quả trong phạm vi các tài nguyên có kèm theo một email cụ thể."
 
-#: includes/api/class-wc-rest-customers-controller.php:778
+#: includes/api/class-wc-rest-customers-controller.php:761
 msgid "List of shipping address data."
 msgstr "Danh sách dữ liệu địa chỉ giao hàng."
 
-#: includes/api/class-wc-rest-customers-controller.php:771
-#: includes/api/class-wc-rest-orders-controller.php:1310
+#: includes/api/class-wc-rest-customers-controller.php:754
+#: includes/api/class-wc-rest-orders-controller.php:1304
 msgid "Phone number."
 msgstr "Số điện thoại."
 
-#: includes/api/class-wc-rest-customers-controller.php:765
-#: includes/api/class-wc-rest-orders-controller.php:1304
+#: includes/api/class-wc-rest-customers-controller.php:748
+#: includes/api/class-wc-rest-orders-controller.php:1298
 msgid "Email address."
 msgstr "Địa chỉ email."
 
-#: includes/api/class-wc-rest-customers-controller.php:760
-#: includes/api/class-wc-rest-customers-controller.php:823
+#: includes/api/class-wc-rest-customers-controller.php:743
+#: includes/api/class-wc-rest-customers-controller.php:806
 msgid "ISO code of the country."
 msgstr "Mã ISO của quốc gia."
 
-#: includes/api/class-wc-rest-customers-controller.php:755
-#: includes/api/class-wc-rest-customers-controller.php:818
-#: includes/api/class-wc-rest-orders-controller.php:1294
-#: includes/api/class-wc-rest-orders-controller.php:1357
+#: includes/api/class-wc-rest-customers-controller.php:738
+#: includes/api/class-wc-rest-customers-controller.php:801
+#: includes/api/class-wc-rest-orders-controller.php:1288
+#: includes/api/class-wc-rest-orders-controller.php:1351
 msgid "Postal code."
 msgstr "Mã bưu chính:"
 
-#: includes/api/class-wc-rest-customers-controller.php:750
-#: includes/api/class-wc-rest-customers-controller.php:813
-#: includes/api/class-wc-rest-orders-controller.php:1289
-#: includes/api/class-wc-rest-orders-controller.php:1352
+#: includes/api/class-wc-rest-customers-controller.php:733
+#: includes/api/class-wc-rest-customers-controller.php:796
+#: includes/api/class-wc-rest-orders-controller.php:1283
+#: includes/api/class-wc-rest-orders-controller.php:1346
 msgid "ISO code or name of the state, province or district."
 msgstr "Mã ISO hoặc tên bang, tỉnh hay quận."
 
-#: includes/api/class-wc-rest-customers-controller.php:745
-#: includes/api/class-wc-rest-customers-controller.php:808
-#: includes/api/class-wc-rest-orders-controller.php:1284
-#: includes/api/class-wc-rest-orders-controller.php:1347
-#: includes/api/class-wc-rest-taxes-controller.php:596
+#: includes/api/class-wc-rest-customers-controller.php:728
+#: includes/api/class-wc-rest-customers-controller.php:791
+#: includes/api/class-wc-rest-orders-controller.php:1278
+#: includes/api/class-wc-rest-orders-controller.php:1341
+#: includes/api/class-wc-rest-taxes-controller.php:589
 msgid "City name."
 msgstr "Tên thành phố."
 
-#: includes/api/class-wc-rest-customers-controller.php:740
-#: includes/api/class-wc-rest-customers-controller.php:803
-#: includes/api/class-wc-rest-orders-controller.php:1279
-#: includes/api/class-wc-rest-orders-controller.php:1342
+#: includes/api/class-wc-rest-customers-controller.php:723
+#: includes/api/class-wc-rest-customers-controller.php:786
+#: includes/api/class-wc-rest-orders-controller.php:1273
+#: includes/api/class-wc-rest-orders-controller.php:1336
 msgid "Address line 2."
 msgstr "Địa chỉ 2."
 
-#: includes/api/class-wc-rest-customers-controller.php:735
-#: includes/api/class-wc-rest-customers-controller.php:798
-#: includes/api/class-wc-rest-orders-controller.php:1274
-#: includes/api/class-wc-rest-orders-controller.php:1337
+#: includes/api/class-wc-rest-customers-controller.php:718
+#: includes/api/class-wc-rest-customers-controller.php:781
+#: includes/api/class-wc-rest-orders-controller.php:1268
+#: includes/api/class-wc-rest-orders-controller.php:1331
 msgid "Address line 1."
 msgstr "Địa chỉ 1."
 
-#: includes/api/class-wc-rest-customers-controller.php:730
-#: includes/api/class-wc-rest-customers-controller.php:793
-#: includes/api/class-wc-rest-orders-controller.php:1269
-#: includes/api/class-wc-rest-orders-controller.php:1332
+#: includes/api/class-wc-rest-customers-controller.php:713
+#: includes/api/class-wc-rest-customers-controller.php:776
+#: includes/api/class-wc-rest-orders-controller.php:1263
+#: includes/api/class-wc-rest-orders-controller.php:1326
 msgid "Company name."
 msgstr "Tên công ty."
 
-#: includes/api/class-wc-rest-customers-controller.php:725
-#: includes/api/class-wc-rest-customers-controller.php:788
-#: includes/api/class-wc-rest-orders-controller.php:1264
-#: includes/api/class-wc-rest-orders-controller.php:1327
+#: includes/api/class-wc-rest-customers-controller.php:708
+#: includes/api/class-wc-rest-customers-controller.php:771
+#: includes/api/class-wc-rest-orders-controller.php:1258
+#: includes/api/class-wc-rest-orders-controller.php:1321
 msgid "Last name."
 msgstr "Họ."
 
-#: includes/api/class-wc-rest-customers-controller.php:720
-#: includes/api/class-wc-rest-customers-controller.php:783
-#: includes/api/class-wc-rest-orders-controller.php:1259
-#: includes/api/class-wc-rest-orders-controller.php:1322
+#: includes/api/class-wc-rest-customers-controller.php:703
+#: includes/api/class-wc-rest-customers-controller.php:766
+#: includes/api/class-wc-rest-orders-controller.php:1253
+#: includes/api/class-wc-rest-orders-controller.php:1316
 msgid "First name."
 msgstr "Tên."
 
-#: includes/api/class-wc-rest-customers-controller.php:715
+#: includes/api/class-wc-rest-customers-controller.php:698
 msgid "List of billing address data."
 msgstr "Danh sách dữ liệu địa chỉ thanh toán."
 
-#: includes/api/class-wc-rest-customers-controller.php:709
+#: includes/api/class-wc-rest-customers-controller.php:692
 msgid "Avatar URL."
 msgstr "URL hình đại diện."
 
-#: includes/api/class-wc-rest-customers-controller.php:703
+#: includes/api/class-wc-rest-customers-controller.php:686
 msgid "Total amount spent."
 msgstr "Tổng số tiền đã bỏ ra."
 
-#: includes/api/class-wc-rest-customers-controller.php:697
+#: includes/api/class-wc-rest-customers-controller.php:680
 msgid "Quantity of orders made by the customer."
 msgstr "Số lượng đơn hàng do khách hàng thực hiện."
 
-#: includes/api/class-wc-rest-customers-controller.php:689
+#: includes/api/class-wc-rest-customers-controller.php:672
 msgid "UTC DateTime of the customer last order."
 msgstr "Ngày giờ UTC của đơn hàng cuối cùng của khách hàng."
 
-#: includes/api/class-wc-rest-customers-controller.php:683
+#: includes/api/class-wc-rest-customers-controller.php:666
 msgid "Last order ID."
 msgstr "ID đơn hàng cuối cùng."
 
-#: includes/api/class-wc-rest-customers-controller.php:677
+#: includes/api/class-wc-rest-customers-controller.php:660
 msgid "Last order data."
 msgstr "Dự liệu đơn hàng trước."
 
-#: includes/api/class-wc-rest-customers-controller.php:672
+#: includes/api/class-wc-rest-customers-controller.php:655
 msgid "Customer password."
 msgstr "Mật khẩu của khách hàng."
 
-#: includes/api/class-wc-rest-customers-controller.php:664
+#: includes/api/class-wc-rest-customers-controller.php:647
 msgid "Customer login name."
 msgstr "Tên đăng nhập của khách hàng:"
 
-#: includes/api/class-wc-rest-customers-controller.php:656
+#: includes/api/class-wc-rest-customers-controller.php:639
 msgid "Customer last name."
 msgstr "Họ của khách."
 
-#: includes/api/class-wc-rest-customers-controller.php:648
+#: includes/api/class-wc-rest-customers-controller.php:631
 msgid "Customer first name."
 msgstr "Tên của khách hàng."
 
-#: includes/api/class-wc-rest-customers-controller.php:642
+#: includes/api/class-wc-rest-customers-controller.php:625
 msgid "The email address for the customer."
 msgstr "Địa chỉ email của khách hàng."
 
-#: includes/api/class-wc-rest-customers-controller.php:636
+#: includes/api/class-wc-rest-customers-controller.php:619
 msgid "The date the customer was last modified, in the site's timezone."
 msgstr "Ngày sửa khách hàng lần cuối, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-customers-controller.php:630
+#: includes/api/class-wc-rest-customers-controller.php:613
 msgid "The date the customer was created, in the site's timezone."
 msgstr "Ngày tạo khách hàng, thuộc múi giờ của trang web."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:60
-#: includes/api/class-wc-rest-coupons-controller.php:82
-#: includes/api/class-wc-rest-customer-downloads-controller.php:46
-#: includes/api/class-wc-rest-customers-controller.php:78
-#: includes/api/class-wc-rest-customers-controller.php:624
-#: includes/api/class-wc-rest-order-notes-controller.php:81
-#: includes/api/class-wc-rest-order-notes-controller.php:399
-#: includes/api/class-wc-rest-order-refunds-controller.php:87
-#: includes/api/class-wc-rest-order-refunds-controller.php:363
-#: includes/api/class-wc-rest-orders-controller.php:76
-#: includes/api/class-wc-rest-orders-controller.php:1145
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:74
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:195
-#: includes/api/class-wc-rest-product-attributes-controller.php:75
-#: includes/api/class-wc-rest-product-attributes-controller.php:534
+#: includes/api/class-wc-rest-customers-controller.php:607
+#: includes/api/class-wc-rest-order-notes-controller.php:380
+#: includes/api/class-wc-rest-order-refunds-controller.php:347
+#: includes/api/class-wc-rest-orders-controller.php:1139
+#: includes/api/class-wc-rest-product-attribute-terms-controller.php:106
+#: includes/api/class-wc-rest-product-attributes-controller.php:525
 #: includes/api/class-wc-rest-product-categories-controller.php:168
-#: includes/api/class-wc-rest-product-reviews-controller.php:92
-#: includes/api/class-wc-rest-product-reviews-controller.php:280
+#: includes/api/class-wc-rest-product-reviews-controller.php:220
 #: includes/api/class-wc-rest-product-shipping-classes-controller.php:94
 #: includes/api/class-wc-rest-product-tags-controller.php:94
-#: includes/api/class-wc-rest-products-controller.php:77
-#: includes/api/class-wc-rest-products-controller.php:1865
-#: includes/api/class-wc-rest-tax-classes-controller.php:332
-#: includes/api/class-wc-rest-taxes-controller.php:62
-#: includes/api/class-wc-rest-taxes-controller.php:575
-#: includes/api/class-wc-rest-webhook-deliveries.php:66
-#: includes/api/class-wc-rest-webhook-deliveries.php:234
-#: includes/api/class-wc-rest-webhooks-controller.php:92
-#: includes/api/class-wc-rest-webhooks-controller.php:481
+#: includes/api/class-wc-rest-products-controller.php:1857
+#: includes/api/class-wc-rest-tax-classes-controller.php:325
+#: includes/api/class-wc-rest-taxes-controller.php:568
+#: includes/api/class-wc-rest-webhook-deliveries.php:218
+#: includes/api/class-wc-rest-webhooks-controller.php:468
 msgid "Unique identifier for the resource."
 msgstr "Từ định danh duy nhất cho tài nguyên."
 
-#: includes/api/class-wc-rest-customers-controller.php:457
+#: includes/api/class-wc-rest-customers-controller.php:440
 msgid "Invalid resource id for reassignment."
 msgstr "ID tài nguyên không hợp lệ để chỉ định lại."
 
-#: includes/api/class-wc-rest-customers-controller.php:447
+#: includes/api/class-wc-rest-customers-controller.php:430
 msgid "Customers do not support trashing."
 msgstr "Khách hàng không hỗ trợ xóa hẳn."
 
-#: includes/api/class-wc-rest-customers-controller.php:401
+#: includes/api/class-wc-rest-customers-controller.php:384
 msgid "Username isn't editable."
 msgstr "Tên người dùng không thể sửa được."
 
-#: includes/api/class-wc-rest-customers-controller.php:397
+#: includes/api/class-wc-rest-customers-controller.php:380
 msgid "Email address is invalid."
 msgstr "Địa chỉ email không hợp lệ."
 
-#: includes/api/class-wc-rest-customers-controller.php:373
-#: includes/api/class-wc-rest-customers-controller.php:393
-#: includes/api/class-wc-rest-customers-controller.php:452
-#: includes/api/class-wc-rest-order-notes-controller.php:272
-#: includes/api/class-wc-rest-order-notes-controller.php:305
-#: includes/api/class-wc-rest-product-reviews-controller.php:197
-#: includes/api/class-wc-rest-tax-classes-controller.php:243
-#: includes/api/class-wc-rest-taxes-controller.php:399
-#: includes/api/class-wc-rest-taxes-controller.php:419
-#: includes/api/class-wc-rest-taxes-controller.php:462
-#: includes/api/class-wc-rest-webhook-deliveries.php:154
+#: includes/api/class-wc-rest-customers-controller.php:356
+#: includes/api/class-wc-rest-customers-controller.php:376
+#: includes/api/class-wc-rest-customers-controller.php:435
+#: includes/api/class-wc-rest-order-notes-controller.php:253
+#: includes/api/class-wc-rest-order-notes-controller.php:286
+#: includes/api/class-wc-rest-product-reviews-controller.php:137
+#: includes/api/class-wc-rest-tax-classes-controller.php:236
+#: includes/api/class-wc-rest-taxes-controller.php:392
+#: includes/api/class-wc-rest-taxes-controller.php:412
+#: includes/api/class-wc-rest-taxes-controller.php:455
+#: includes/api/class-wc-rest-webhook-deliveries.php:138
 msgid "Invalid resource id."
 msgstr "Id tài nguyên không hợp lệ."
 
-#: includes/api/class-wc-rest-customers-controller.php:322
-#: includes/api/class-wc-rest-tax-classes-controller.php:182
-#: includes/api/class-wc-rest-taxes-controller.php:363
+#: includes/api/class-wc-rest-customers-controller.php:305
+#: includes/api/class-wc-rest-tax-classes-controller.php:175
+#: includes/api/class-wc-rest-taxes-controller.php:356
 msgid "Cannot create existing resource."
 msgstr "Không thể tạo tài nguyên hiện có."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:226
-#: includes/api/class-wc-rest-products-controller.php:2022
-#: includes/api/class-wc-rest-products-controller.php:2496
+#: includes/api/class-wc-rest-customer-downloads-controller.php:220
+#: includes/api/class-wc-rest-products-controller.php:2014
+#: includes/api/class-wc-rest-products-controller.php:2479
 msgid "File URL."
 msgstr "Đường dẫn tập tin."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:220
-#: includes/api/class-wc-rest-products-controller.php:2017
-#: includes/api/class-wc-rest-products-controller.php:2491
+#: includes/api/class-wc-rest-customer-downloads-controller.php:214
+#: includes/api/class-wc-rest-products-controller.php:2009
+#: includes/api/class-wc-rest-products-controller.php:2474
 msgid "File name."
 msgstr "Tên tập tin."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:214
+#: includes/api/class-wc-rest-customer-downloads-controller.php:208
 msgid "File details."
 msgstr "Chi tiết tập tin."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:208
+#: includes/api/class-wc-rest-customer-downloads-controller.php:202
 msgid "The date when the download access expires, in the site's timezone."
 msgstr "Ngày hết hạn quyền truy cập tải về, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:202
+#: includes/api/class-wc-rest-customer-downloads-controller.php:196
 msgid "Amount of downloads remaining."
 msgstr "Số lượng bản tải về còn lại."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:196
-#: includes/api/class-wc-rest-orders-controller.php:1163
+#: includes/api/class-wc-rest-customer-downloads-controller.php:190
+#: includes/api/class-wc-rest-orders-controller.php:1157
 msgid "Order key."
 msgstr "Khóa đơn hàng."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:190
+#: includes/api/class-wc-rest-customer-downloads-controller.php:184
 msgid "Order ID."
 msgstr "ID đặt hàng."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:184
+#: includes/api/class-wc-rest-customer-downloads-controller.php:178
 msgid "Downloadable file name."
 msgstr "Tên tập tin tải về được."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:178
+#: includes/api/class-wc-rest-customer-downloads-controller.php:172
 msgid "Downloadable product ID."
 msgstr "ID sản phẩm tải về được."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:172
+#: includes/api/class-wc-rest-customer-downloads-controller.php:166
 msgid "Download ID (MD5)."
 msgstr "Tải về ID (MD5)."
 
-#: includes/api/class-wc-rest-customer-downloads-controller.php:166
+#: includes/api/class-wc-rest-customer-downloads-controller.php:160
 msgid "Download file URL."
 msgstr "Tải về URL tập tin"
 
-#: includes/api/class-wc-rest-coupons-controller.php:601
+#: includes/api/class-wc-rest-coupons-controller.php:574
 msgid "Limit result set to resources with a specific code."
 msgstr "Giới hạn kết quả trong phạm vi các tài nguyên với một mã cụ thể."
 
-#: includes/api/class-wc-rest-coupons-controller.php:578
+#: includes/api/class-wc-rest-coupons-controller.php:554
 msgid "List of user IDs who have used the coupon."
 msgstr "Danh sách ID người dùng đã sử dụng phiếu giảm giá này."
 
-#: includes/api/class-wc-rest-coupons-controller.php:570
+#: includes/api/class-wc-rest-coupons-controller.php:549
 msgid "List of email addresses that can use this coupon."
 msgstr "Danh sách đia chỉ email có thể sử dụng phiếu giảm giá này."
 
-#: includes/api/class-wc-rest-coupons-controller.php:565
+#: includes/api/class-wc-rest-coupons-controller.php:544
 msgid "Maximum order amount allowed when using the coupon."
 msgstr "Số lượng đặt hàng tối đa khi sử dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:560
+#: includes/api/class-wc-rest-coupons-controller.php:539
 msgid "Minimum order amount that needs to be in the cart before coupon applies."
 msgstr "Giá trị thấp nhất cần ở trong giỏ hàng trước khi được dùng mã khuyến mãi."
 
-#: includes/api/class-wc-rest-coupons-controller.php:554
+#: includes/api/class-wc-rest-coupons-controller.php:533
 msgid "Define if should not apply when have sale items."
 msgstr "Xác định xem có nên áp dụng không khi có các mục giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:546
+#: includes/api/class-wc-rest-coupons-controller.php:528
 msgid "List of category ID's the coupon does not apply to."
 msgstr "Danh sách ID hạng mục không thể áp dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:538
+#: includes/api/class-wc-rest-coupons-controller.php:523
 msgid "List of category ID's the coupon applies to."
 msgstr "Danh sách ID hạng mục có thể áp dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:532
+#: includes/api/class-wc-rest-coupons-controller.php:517
 msgid "Define if can be applied for free shipping."
 msgstr "Xác định xem có thể áp dụng cho giao hàng miễn phí được không."
 
-#: includes/api/class-wc-rest-coupons-controller.php:527
+#: includes/api/class-wc-rest-coupons-controller.php:512
 msgid "Max number of items in the cart the coupon can be applied to."
 msgstr "Số lượng mục tối đa trong giỏ hàng có thể áp dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:522
+#: includes/api/class-wc-rest-coupons-controller.php:507
 msgid "How many times the coupon can be used per customer."
 msgstr "Số lần phiếu giảm giá có thể sử dụng.cho mỗi khách hàng."
 
-#: includes/api/class-wc-rest-coupons-controller.php:517
+#: includes/api/class-wc-rest-coupons-controller.php:502
 msgid "How many times the coupon can be used."
 msgstr "Số lần phiếu giảm giá có thể sử dụng."
 
-#: includes/api/class-wc-rest-coupons-controller.php:509
+#: includes/api/class-wc-rest-coupons-controller.php:497
 msgid "List of product ID's the coupon cannot be used on."
 msgstr "Danh sách ID sản phẩm không thể sử dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:501
+#: includes/api/class-wc-rest-coupons-controller.php:492
 msgid "List of product ID's the coupon can be used on."
 msgstr "Danh sách ID sản phẩm có thể sử dụng phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:495
+#: includes/api/class-wc-rest-coupons-controller.php:486
 msgid "Whether coupon can only be used individually."
 msgstr "Liệu phiếu giảm giá chỉ có thể được sử dụng riêng lẻ không."
 
-#: includes/api/class-wc-rest-coupons-controller.php:489
+#: includes/api/class-wc-rest-coupons-controller.php:480
 msgid "Number of times the coupon has been used already."
 msgstr "Số lần mã khuyến mãi đã được sử dụng."
 
-#: includes/api/class-wc-rest-coupons-controller.php:484
+#: includes/api/class-wc-rest-coupons-controller.php:475
 msgid "UTC DateTime when the coupon expires."
 msgstr "Ngày giờ UTC khi phiếu giảm giá hết hạn."
 
-#: includes/api/class-wc-rest-coupons-controller.php:479
+#: includes/api/class-wc-rest-coupons-controller.php:470
 msgid "The amount of discount."
 msgstr "Số tiền chiết khấu."
 
-#: includes/api/class-wc-rest-coupons-controller.php:472
+#: includes/api/class-wc-rest-coupons-controller.php:463
 msgid "Determines the type of discount that will be applied."
 msgstr "Xác định kiểu chiết khấu sẽ được áp dụng."
 
-#: includes/api/class-wc-rest-coupons-controller.php:467
+#: includes/api/class-wc-rest-coupons-controller.php:458
 msgid "Coupon description."
 msgstr "Mô tả phiếu giảm giá."
 
-#: includes/api/class-wc-rest-coupons-controller.php:461
+#: includes/api/class-wc-rest-coupons-controller.php:452
 msgid "The date the coupon was last modified, in the site's timezone."
 msgstr "Ngày sửa phiếu giảm giá lần cuối, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-coupons-controller.php:455
+#: includes/api/class-wc-rest-coupons-controller.php:446
 msgid "The date the coupon was created, in the site's timezone."
 msgstr "Ngày tạo phiếu giảm giá, thuộc múi giờ của trang web."
 
-#: includes/api/class-wc-rest-coupons-controller.php:70
-#: includes/api/class-wc-rest-coupons-controller.php:450
-#: includes/api/class-wc-rest-orders-controller.php:1760
+#: includes/api/class-wc-rest-coupons-controller.php:441
+#: includes/api/class-wc-rest-orders-controller.php:1754
 msgid "Coupon code."
 msgstr "Mã khuyến mãi."
 
-#: includes/api/class-wc-rest-coupons-controller.php:444
+#: includes/api/class-wc-rest-coupons-controller.php:435
 msgid "Unique identifier for the object."
 msgstr "Từ định danh duy nhất cho đối tượng."
 
-#: includes/api/class-wc-rest-coupons-controller.php:229
+#: includes/api/class-wc-rest-coupons-controller.php:220
 msgid "The coupon code cannot be empty."
 msgstr "Mã khuyến mãi không được trống."
 
-#: includes/api/class-wc-rest-coupons-controller.php:108
-#: includes/api/class-wc-rest-orders-controller.php:102
-#: includes/api/class-wc-rest-product-reviews-controller.php:118
-#: includes/api/class-wc-rest-products-controller.php:102
+#: includes/api/class-wc-rest-coupons-controller.php:99
+#: includes/api/class-wc-rest-orders-controller.php:95
+#: includes/api/class-wc-rest-products-controller.php:96
 msgid "Whether to bypass trash and force deletion."
 msgstr "Có bỏ qua thùng rác và ép xóa hay không."
 
@@ -3302,126 +3288,130 @@ msgstr "Bạn có chắc muốn xóa thông tin này ? Thông tin sẽ không th
 msgid "Items"
 msgstr "Mặt hàng"
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:766
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:751
 msgid "Limit result set to resources with a specific slug."
 msgstr "Giới hạn kết quả trong phạm vi nguồn tài nguyên với một đoạn mã cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:760
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:745
 msgid "Limit result set to resources assigned to a specific product."
 msgstr "Giới hạn kết quả trong phạm vi nguồn tài nguyên được chỉ định cho một sản phẩm cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:753
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:738
 msgid "Limit result set to resources assigned to a specific parent."
 msgstr "Giới hạn kết quả trong phạm vi các tài nguyên được chỉ định cho một nguồn chính cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:746
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:731
 msgid "Whether to hide resources not assigned to any products."
 msgstr "Có để ẩn nguồn tài nguyên không được chỉ định cho bất kỳ sản phẩm nào hay không."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:730
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:715
 msgid "Sort collection by resource attribute."
 msgstr "Sắp xếp gom hàng theo thuộc tính tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:545
-#: includes/api/class-wc-rest-customers-controller.php:470
-#: includes/api/class-wc-rest-product-attributes-controller.php:434
-#: includes/api/class-wc-rest-taxes-controller.php:471
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:536
+#: includes/api/class-wc-rest-customers-controller.php:453
+#: includes/api/class-wc-rest-product-attributes-controller.php:425
+#: includes/api/class-wc-rest-taxes-controller.php:464
 msgid "The resource cannot be deleted."
 msgstr "Không thể xóa tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:536
-#: includes/api/class-wc-rest-product-attributes-controller.php:415
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:527
+#: includes/api/class-wc-rest-product-attributes-controller.php:406
 msgid "Resource does not support trashing."
 msgstr "Tài nguyên không hỗ trợ xóa hẳn."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:382
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:486
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:373
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:477
 msgid "Parent resource doesn't exist."
 msgstr "Sản phẩm Cha không tồn tại."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:376
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:480
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:367
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:471
 msgid "Can not set resource parent, taxonomy is not hierarchical."
 msgstr "Không thể đặt tài nguyên chính, phân loại không có tính phân cấp."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:237
-#: includes/api/class-wc-rest-customer-downloads-controller.php:70
-#: includes/api/class-wc-rest-product-attributes-controller.php:155
-#: includes/api/class-wc-rest-product-attributes-controller.php:173
-#: includes/api/class-wc-rest-product-attributes-controller.php:191
-#: includes/api/class-wc-rest-product-attributes-controller.php:629
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:228
+#: includes/api/class-wc-rest-customer-downloads-controller.php:64
+#: includes/api/class-wc-rest-product-attributes-controller.php:146
+#: includes/api/class-wc-rest-product-attributes-controller.php:164
+#: includes/api/class-wc-rest-product-attributes-controller.php:182
+#: includes/api/class-wc-rest-product-attributes-controller.php:620
 msgid "Resource doesn't exist."
 msgstr "Không có tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:229
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:220
 msgid "Taxonomy doesn't exist."
 msgstr "Không có phân loại."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:193
-#: includes/api/class-wc-rest-product-attributes-controller.php:195
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:184
+#: includes/api/class-wc-rest-product-attributes-controller.php:186
 msgid "Sorry, you cannot delete resource."
 msgstr "Rất tiếc, bạn không thể xóa tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:174
-#: includes/api/class-wc-rest-product-attributes-controller.php:177
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:165
+#: includes/api/class-wc-rest-product-attributes-controller.php:168
 msgid "Sorry, you cannot update resource."
 msgstr "Rất tiếc, bạn không thể cập nhật tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:136
-#: includes/api/class-wc-rest-product-attributes-controller.php:141
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:127
+#: includes/api/class-wc-rest-product-attributes-controller.php:132
 msgid "Sorry, you cannot create new resource."
 msgstr "Rất tiếc, bạn không thể tạo tài nguyên mới."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:86
-#: includes/api/class-wc-rest-customers-controller.php:104
-#: includes/api/class-wc-rest-order-notes-controller.php:105
-#: includes/api/class-wc-rest-order-refunds-controller.php:107
-#: includes/api/class-wc-rest-product-attribute-terms-controller.php:104
-#: includes/api/class-wc-rest-product-attributes-controller.php:101
-#: includes/api/class-wc-rest-tax-classes-controller.php:74
-#: includes/api/class-wc-rest-taxes-controller.php:88
-#: includes/api/class-wc-rest-webhooks-controller.php:118
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:77
+#: includes/api/class-wc-rest-customers-controller.php:91
+#: includes/api/class-wc-rest-order-notes-controller.php:86
+#: includes/api/class-wc-rest-order-refunds-controller.php:90
+#: includes/api/class-wc-rest-product-attributes-controller.php:92
+#: includes/api/class-wc-rest-tax-classes-controller.php:67
+#: includes/api/class-wc-rest-taxes-controller.php:81
+#: includes/api/class-wc-rest-webhooks-controller.php:105
 msgid "Required to be true, as resource does not support trashing."
 msgstr "Yêu cầu phải đúng, vì tài nguyên không hỗ trợ xóa hẳn."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:696
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:682
 msgid "Use WP Query arguments to modify the response; private query vars require appropriate authorization."
 msgstr "Sử dụng tham số Truy vấn WP để sửa đổi phản hồi; các biến thể riêng của truy vấn yêu cầu phải có ủy quyền phù hợp."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:684
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:674
 msgid "Limit result set to all items except those of a particular parent id."
 msgstr "Giới hạn kết quả trong phạm vi tất cả mục trừ những mục có id chính cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:675
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:668
 msgid "Limit result set to those of particular parent ids."
 msgstr "Giới hạn kết quả trong phạm vi kết quả của ID chính cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:658
-#: includes/api/class-wc-rest-customers-controller.php:890
-#: includes/api/class-wc-rest-taxes-controller.php:690
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:652
+#: includes/api/class-wc-rest-customers-controller.php:867
+#: includes/api/class-wc-rest-taxes-controller.php:677
 msgid "Sort collection by object attribute."
 msgstr "Sắp xếp gom hàng theo thuộc tính đối tượng."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:651
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:719
-#: includes/api/class-wc-rest-customers-controller.php:882
-#: includes/api/class-wc-rest-taxes-controller.php:682
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:645
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:704
+#: includes/api/class-wc-rest-customers-controller.php:859
+#: includes/api/class-wc-rest-taxes-controller.php:669
 msgid "Order sort attribute ascending or descending."
 msgstr "Sắp xếp thuộc tính theo thứ tự tăng dần hoặc giảm dần."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:645
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:712
-#: includes/api/class-wc-rest-customers-controller.php:875
-#: includes/api/class-wc-rest-taxes-controller.php:675
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:639
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:697
+#: includes/api/class-wc-rest-customers-controller.php:852
+#: includes/api/class-wc-rest-taxes-controller.php:662
 msgid "Offset the result set by a specific number of items."
 msgstr "Bù trừ kết quả theo một số mục cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-posts-controller.php:636
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:702
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:633
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:690
+#: includes/api/class-wc-rest-customers-controller.php:846
+#: includes/api/class-wc-rest-taxes-controller.php:656
 msgid "Limit result set to specific ids."
 msgstr "Giới hạn kết quả trong phạm vi các id cụ thể."
 
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:693
+#: includes/abstracts/abstract-wc-rest-posts-controller.php:627
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:684
+#: includes/api/class-wc-rest-customers-controller.php:840
+#: includes/api/class-wc-rest-taxes-controller.php:650
 msgid "Ensure result set excludes specific ids."
 msgstr "Đảm bảo kết quả không bao gồm các id cụ thể."
 
@@ -3434,44 +3424,44 @@ msgid "Limit response to resources published after a given ISO8601 compliant dat
 msgstr "Giới hạn câu trả lời trong phạm vi các tài nguyên được xuất bản sau ngày tuân thủ ISO8601 đã cho."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:460
-#: includes/api/class-wc-rest-order-notes-controller.php:314
-#: includes/api/class-wc-rest-products-controller.php:1831
-#: includes/api/class-wc-rest-webhooks-controller.php:327
+#: includes/api/class-wc-rest-order-notes-controller.php:295
+#: includes/api/class-wc-rest-products-controller.php:1823
+#: includes/api/class-wc-rest-webhooks-controller.php:314
 msgid "The %s cannot be deleted."
 msgstr "Không thể xóa %s ."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:451
-#: includes/api/class-wc-rest-products-controller.php:1822
+#: includes/api/class-wc-rest-products-controller.php:1814
 msgid "The %s has already been deleted."
 msgstr "%s đã bị xóa."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:446
-#: includes/api/class-wc-rest-products-controller.php:1817
+#: includes/api/class-wc-rest-products-controller.php:1809
 msgid "The %s does not support trashing."
 msgstr "%s không hỗ trợ xóa hẳn."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:434
-#: includes/api/class-wc-rest-products-controller.php:1786
+#: includes/api/class-wc-rest-products-controller.php:1778
 msgid "Sorry, you are not allowed to delete %s."
 msgstr "Rất tiếc, bạn không được phép xóa %s."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:418
-#: includes/api/class-wc-rest-products-controller.php:1770
-#: includes/api/class-wc-rest-webhooks-controller.php:318
+#: includes/api/class-wc-rest-products-controller.php:1762
+#: includes/api/class-wc-rest-webhooks-controller.php:305
 msgid "Invalid post id."
 msgstr "Id bài đăng không hợp lệ."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:259
-#: includes/api/class-wc-rest-orders-controller.php:1090
-#: includes/api/class-wc-rest-webhooks-controller.php:230
+#: includes/api/class-wc-rest-orders-controller.php:1084
+#: includes/api/class-wc-rest-webhooks-controller.php:217
 msgid "ID is invalid."
 msgstr "ID không hợp lệ."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:176
-#: includes/api/class-wc-rest-order-notes-controller.php:216
-#: includes/api/class-wc-rest-order-refunds-controller.php:282
-#: includes/api/class-wc-rest-orders-controller.php:890
-#: includes/api/class-wc-rest-webhooks-controller.php:144
+#: includes/api/class-wc-rest-order-notes-controller.php:197
+#: includes/api/class-wc-rest-order-refunds-controller.php:266
+#: includes/api/class-wc-rest-orders-controller.php:884
+#: includes/api/class-wc-rest-webhooks-controller.php:131
 msgid "Cannot create existing %s."
 msgstr "Không thể tạo %sđã tồn tại."
 
@@ -3480,70 +3470,70 @@ msgid "Invalid id."
 msgstr "Id không hợp lệ."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:129
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:212
-#: includes/api/class-wc-rest-customers-controller.php:211
-#: includes/api/class-wc-rest-product-attributes-controller.php:209
-#: includes/api/class-wc-rest-taxes-controller.php:184
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:203
+#: includes/api/class-wc-rest-customers-controller.php:194
+#: includes/api/class-wc-rest-product-attributes-controller.php:200
+#: includes/api/class-wc-rest-taxes-controller.php:177
 msgid "Sorry, you are not allowed to manipule this resource."
 msgstr "Rất tiếc, bạn không được phép sử dụng tài nguyên này."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:115
-#: includes/api/class-wc-rest-customers-controller.php:197
-#: includes/api/class-wc-rest-order-notes-controller.php:167
-#: includes/api/class-wc-rest-tax-classes-controller.php:118
-#: includes/api/class-wc-rest-taxes-controller.php:170
+#: includes/api/class-wc-rest-customers-controller.php:180
+#: includes/api/class-wc-rest-order-notes-controller.php:148
+#: includes/api/class-wc-rest-tax-classes-controller.php:111
+#: includes/api/class-wc-rest-taxes-controller.php:163
 msgid "Sorry, you are not allowed to delete this resource."
 msgstr "Rất tiếc, bạn không được phép xóa tài nguyên này."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:99
-#: includes/api/class-wc-rest-customers-controller.php:181
-#: includes/api/class-wc-rest-taxes-controller.php:156
+#: includes/api/class-wc-rest-customers-controller.php:164
+#: includes/api/class-wc-rest-taxes-controller.php:149
 msgid "Sorry, you are not allowed to edit this resource."
 msgstr "Rất tiếc, bạn không được phép sửa tài nguyên này."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:83
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:155
-#: includes/api/class-wc-rest-customers-controller.php:165
-#: includes/api/class-wc-rest-order-notes-controller.php:151
-#: includes/api/class-wc-rest-product-attributes-controller.php:159
-#: includes/api/class-wc-rest-product-reviews-controller.php:150
-#: includes/api/class-wc-rest-taxes-controller.php:142
-#: includes/api/class-wc-rest-webhook-deliveries.php:106
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:146
+#: includes/api/class-wc-rest-customers-controller.php:148
+#: includes/api/class-wc-rest-order-notes-controller.php:132
+#: includes/api/class-wc-rest-product-attributes-controller.php:150
+#: includes/api/class-wc-rest-product-reviews-controller.php:90
+#: includes/api/class-wc-rest-taxes-controller.php:135
+#: includes/api/class-wc-rest-webhook-deliveries.php:90
 msgid "Sorry, you cannot view this resource."
 msgstr "Xin lỗi, bạn không thể xem tài nguyên này."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:67
-#: includes/api/class-wc-rest-customers-controller.php:149
-#: includes/api/class-wc-rest-order-notes-controller.php:135
-#: includes/api/class-wc-rest-tax-classes-controller.php:104
-#: includes/api/class-wc-rest-taxes-controller.php:128
+#: includes/api/class-wc-rest-customers-controller.php:132
+#: includes/api/class-wc-rest-order-notes-controller.php:116
+#: includes/api/class-wc-rest-tax-classes-controller.php:97
+#: includes/api/class-wc-rest-taxes-controller.php:121
 msgid "Sorry, you are not allowed to create resources."
 msgstr "Rất tiếc, bạn không được phép tạo tài nguyên."
 
 #: includes/abstracts/abstract-wc-rest-posts-controller.php:53
-#: includes/abstracts/abstract-wc-rest-terms-controller.php:117
-#: includes/api/class-wc-rest-customer-downloads-controller.php:74
-#: includes/api/class-wc-rest-customers-controller.php:135
-#: includes/api/class-wc-rest-order-notes-controller.php:121
-#: includes/api/class-wc-rest-product-attributes-controller.php:127
-#: includes/api/class-wc-rest-product-reviews-controller.php:134
+#: includes/abstracts/abstract-wc-rest-terms-controller.php:108
+#: includes/api/class-wc-rest-customer-downloads-controller.php:68
+#: includes/api/class-wc-rest-customers-controller.php:118
+#: includes/api/class-wc-rest-order-notes-controller.php:102
+#: includes/api/class-wc-rest-product-attributes-controller.php:118
+#: includes/api/class-wc-rest-product-reviews-controller.php:74
 #: includes/api/class-wc-rest-report-sales-controller.php:69
 #: includes/api/class-wc-rest-reports-controller.php:62
-#: includes/api/class-wc-rest-tax-classes-controller.php:90
-#: includes/api/class-wc-rest-taxes-controller.php:114
-#: includes/api/class-wc-rest-webhook-deliveries.php:90
+#: includes/api/class-wc-rest-tax-classes-controller.php:83
+#: includes/api/class-wc-rest-taxes-controller.php:107
+#: includes/api/class-wc-rest-webhook-deliveries.php:74
 msgid "Sorry, you cannot list resources."
 msgstr "Rất tiếc, bạn không thể liệt kê tài nguyên."
 
-#: includes/abstracts/abstract-wc-rest-controller.php:222
+#: includes/abstracts/abstract-wc-rest-controller.php:210
 msgid "List of delete resources."
 msgstr "Danh sách các tài nguyên đã xóa."
 
-#: includes/abstracts/abstract-wc-rest-controller.php:214
+#: includes/abstracts/abstract-wc-rest-controller.php:205
 msgid "List of updated resources."
 msgstr "Danh sách các tài nguyên đã cập nhật."
 
-#: includes/abstracts/abstract-wc-rest-controller.php:206
+#: includes/abstracts/abstract-wc-rest-controller.php:200
 msgid "List of created resources."
 msgstr "Danh sách các tài nguyên đã tạo."
 
@@ -3813,7 +3803,7 @@ msgstr "Lớp thuế đã tồn tại"
 msgid "You do not have permission to create tax classes"
 msgstr "Bạn không được phép tạo các loại thuế"
 
-#: includes/api/class-wc-rest-tax-classes-controller.php:136
+#: includes/api/class-wc-rest-tax-classes-controller.php:129
 #: includes/api/legacy/v3/class-wc-api-taxes.php:534
 #: includes/cli/class-wc-cli-tax.php:434
 msgid "Standard Rate"
@@ -4130,7 +4120,7 @@ msgctxt "Order #123 details"
 msgid "%s #%s details"
 msgstr "%s #%s chi tiết"
 
-#: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:132
+#: includes/admin/meta-boxes/class-wc-meta-box-order-actions.php:129
 msgid "%s email notification manually sent."
 msgstr "%s email thông báo được gửi bằng tay."
 
@@ -4483,7 +4473,7 @@ msgid "%s for %s item"
 msgid_plural "%s for %s items"
 msgstr[0] "%s trong số %s sản phẩm"
 
-#: includes/api/class-wc-rest-orders-controller.php:1169
+#: includes/api/class-wc-rest-orders-controller.php:1163
 msgid "Order number."
 msgstr "Số đơn hàng"
 
@@ -4584,7 +4574,7 @@ msgstr "Rất tiếc, có vẻ như không có phương thức thanh toán nào 
 
 #: templates/loop/sale-flash.php:28 templates/single-product/sale-flash.php:28
 msgid "Sale!"
-msgstr "Giảm giá!"
+msgstr "Sale!"
 
 #: templates/loop/result-count.php:39
 msgid "Showing the single result"
@@ -8285,7 +8275,7 @@ msgstr "Không thể xóa thuộc tính"
 msgid "You do not have permission to delete product attributes"
 msgstr "Bạn không đủ quyền để xóa thuộc tính sản phẩm"
 
-#: includes/api/class-wc-rest-product-attributes-controller.php:372
+#: includes/api/class-wc-rest-product-attributes-controller.php:363
 #: includes/api/legacy/v2/class-wc-api-products.php:2262
 #: includes/api/legacy/v3/class-wc-api-products.php:2844
 msgid "Could not edit the attribute"
@@ -8350,8 +8340,8 @@ msgstr "Đã tải tập tin kích thước bằng không"
 msgid "Invalid URL %s"
 msgstr "Đường dẫn URL không hợp lệ %s"
 
-#: includes/api/class-wc-rest-products-controller.php:322
-#: includes/api/class-wc-rest-products-controller.php:323
+#: includes/api/class-wc-rest-products-controller.php:316
+#: includes/api/class-wc-rest-products-controller.php:317
 #: includes/api/legacy/v1/class-wc-api-products.php:464
 #: includes/api/legacy/v1/class-wc-api-products.php:465
 #: includes/api/legacy/v2/class-wc-api-products.php:1736
@@ -8812,7 +8802,7 @@ msgstr "Dữ liệu không có %1$s để sửa %1$s"
 msgid "Invalid coupon type - the coupon type must be any of these: %s"
 msgstr "Mã ưu đãi không hợp lệ - Mã ưu đãi phải có dạng như sau: %s"
 
-#: includes/api/class-wc-rest-coupons-controller.php:249
+#: includes/api/class-wc-rest-coupons-controller.php:240
 #: includes/api/legacy/v2/class-wc-api-coupons.php:242
 #: includes/api/legacy/v2/class-wc-api-coupons.php:358
 #: includes/api/legacy/v3/class-wc-api-coupons.php:242
@@ -9945,11 +9935,11 @@ msgstr "Xóa (các) hàng đã chọn"
 msgid "Insert row"
 msgstr "Chèn thêm hàng"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:465
-#: includes/api/class-wc-rest-orders-controller.php:1511
-#: includes/api/class-wc-rest-orders-controller.php:1584
-#: includes/api/class-wc-rest-orders-controller.php:1659
-#: includes/api/class-wc-rest-orders-controller.php:1723
+#: includes/api/class-wc-rest-order-refunds-controller.php:449
+#: includes/api/class-wc-rest-orders-controller.php:1505
+#: includes/api/class-wc-rest-orders-controller.php:1578
+#: includes/api/class-wc-rest-orders-controller.php:1653
+#: includes/api/class-wc-rest-orders-controller.php:1717
 msgid "Tax rate ID."
 msgstr "ID mức thuế suất"
 
@@ -11238,9 +11228,9 @@ msgstr "Được bán %s giá trị trong %d ngày"
 msgid "Variation description"
 msgstr "Mô tả biến thể"
 
-#: includes/api/class-wc-rest-products-controller.php:2067
-#: includes/api/class-wc-rest-products-controller.php:2523
-#: includes/api/class-wc-rest-taxes-controller.php:634
+#: includes/api/class-wc-rest-products-controller.php:2059
+#: includes/api/class-wc-rest-products-controller.php:2506
+#: includes/api/class-wc-rest-taxes-controller.php:627
 msgid "Tax class."
 msgstr "Loại hình thuế:"
 
@@ -11555,8 +11545,8 @@ msgstr "Sau khi giảm giá trước thuế."
 msgid "Add&nbsp;meta"
 msgstr "Thêm&nbsp;meta"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:404
-#: includes/api/class-wc-rest-orders-controller.php:1450
+#: includes/api/class-wc-rest-order-refunds-controller.php:388
+#: includes/api/class-wc-rest-orders-controller.php:1444
 msgid "Product SKU."
 msgstr "Mã sản phẩm:"
 
@@ -11568,8 +11558,8 @@ msgstr "Không còn tồn tại"
 msgid "Variation ID:"
 msgstr "ID biến thể:"
 
-#: includes/api/class-wc-rest-order-refunds-controller.php:410
-#: includes/api/class-wc-rest-orders-controller.php:1456
+#: includes/api/class-wc-rest-order-refunds-controller.php:394
+#: includes/api/class-wc-rest-orders-controller.php:1450
 #: includes/api/class-wc-rest-report-top-sellers-controller.php:158
 msgid "Product ID."
 msgstr "ID sản phẩm"
@@ -11626,7 +11616,7 @@ msgstr "#%s &ndash; Mã biến thể SKU là duy nhất."
 
 #: includes/admin/class-wc-admin-duplicate-product.php:167
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:1289
-#: includes/api/class-wc-rest-products-controller.php:1337
+#: includes/api/class-wc-rest-products-controller.php:1329
 #: includes/api/legacy/v2/class-wc-api-products.php:1263
 #: includes/api/legacy/v3/class-wc-api-products.php:1758
 #: includes/cli/class-wc-cli-product.php:1536
@@ -11918,7 +11908,7 @@ msgstr "Bán riêng"
 
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:330
 #: includes/admin/meta-boxes/views/html-variation-admin.php:160
-#: includes/api/class-wc-rest-products-controller.php:2083
+#: includes/api/class-wc-rest-products-controller.php:2075
 msgid "Controls whether or not the product is listed as \"in stock\" or \"out of stock\" on the frontend."
 msgstr "Quản lý việc sản phẩm được liệt kê là \"còn hàng\" hoặc \"hết hàng\" trên trang web của bạn."
 
@@ -12721,7 +12711,7 @@ msgstr "Bạn không có quyền tạo Webhooks!"
 #: includes/admin/class-wc-admin-webhooks.php:49
 #: includes/admin/class-wc-admin-webhooks.php:198
 #: includes/admin/settings/views/html-webhooks-edit.php:16
-#: includes/api/class-wc-rest-webhooks-controller.php:363
+#: includes/api/class-wc-rest-webhooks-controller.php:350
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:197
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:197
 msgctxt "Webhook created on date parsed by strftime"
@@ -12730,7 +12720,7 @@ msgstr "%b %d, %Y @ %I:%M %p"
 
 #: includes/admin/class-wc-admin-webhooks.php:49
 #: includes/admin/class-wc-admin-webhooks.php:198
-#: includes/api/class-wc-rest-webhooks-controller.php:363
+#: includes/api/class-wc-rest-webhooks-controller.php:350
 #: includes/api/legacy/v2/class-wc-api-webhooks.php:197
 #: includes/api/legacy/v3/class-wc-api-webhooks.php:197
 msgid "Webhook created on %s"
@@ -15255,18 +15245,18 @@ msgstr "mã"
 msgid "key"
 msgstr "mã"
 
-#: includes/abstracts/abstract-wc-product.php:1203
+#: includes/abstracts/abstract-wc-product.php:1201
 #: includes/admin/class-wc-admin-dashboard.php:236
 #: templates/single-product/review-rating.php:29
 msgid "out of 5"
 msgstr "trên 5"
 
-#: includes/abstracts/abstract-wc-product.php:1201
+#: includes/abstracts/abstract-wc-product.php:1199
 #: includes/class-wc-embed.php:127 templates/single-product/rating.php:36
 msgid "Rated %s out of 5"
 msgstr "Được xếp hạng %s 5 sao"
 
-#: includes/abstracts/abstract-wc-product.php:1062
+#: includes/abstracts/abstract-wc-product.php:1060
 msgctxt "min_price"
 msgid "From:"
 msgstr "Từ"
@@ -15352,7 +15342,6 @@ msgstr "Sản phẩm #%s biến thể #%s trong kho giảm từ %s tới %s."
 msgid "Order status changed from %1$s to %2$s."
 msgstr "Trạng thái đơn hàng đã được chuyển từ %s sang %s."
 
-#. #-#-#-#-#  tmp-woocommerce.pot (WooCommerce 2.6.14)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: includes/abstracts/abstract-wc-order.php:2320
 #: includes/abstracts/abstract-wc-order.php:2321
@@ -15409,8 +15398,8 @@ msgid "Subtotal:"
 msgstr "Tổng số phụ:"
 
 #: includes/abstracts/abstract-wc-order.php:1870
-#: includes/abstracts/abstract-wc-product.php:1040
-#: includes/abstracts/abstract-wc-product.php:1046
+#: includes/abstracts/abstract-wc-product.php:1038
+#: includes/abstracts/abstract-wc-product.php:1044
 #: includes/class-wc-cart.php:1611 includes/class-wc-product-grouped.php:156
 #: includes/class-wc-product-variable.php:362
 #: includes/class-wc-product-variation.php:328
@@ -19155,7 +19144,7 @@ msgstr "Buenos Aires"
 msgid "Ciudad Aut&oacute;noma de Buenos Aires"
 msgstr "Ciudad Aut&oacute;noma de Buenos Aires"
 
-#: i18n/locale-info.php:371
+#: i18n/locale-info.php:351
 msgid "Consumption tax"
 msgstr "Thuế tiêu dùng"
 

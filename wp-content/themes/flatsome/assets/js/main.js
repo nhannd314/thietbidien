@@ -12,4 +12,7 @@ jQuery(document).ready(function() {
             jQuery("#mega_menu.active").removeClass("active")
         }
     })
+    jQuery("#mega_menu ul.sub-menu > li").each(function(index) {
+        jQuery(this).children(".menu-image").css("margin-top", -index*40 + "px")
+    })
 })
