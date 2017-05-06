@@ -231,7 +231,7 @@ function flatsome_account_login_lightbox(){
     ?>
     <div id="login-form-popup" class="lightbox-content mfp-hide">
       <?php echo do_shortcode('[woocommerce_my_account]'); ?>
-      <?php if($is_facebook_login || $is_google_login) echo woocommerce_get_template('myaccount/header.php'); ?>
+      <?php if($is_facebook_login || $is_google_login) echo wc_get_template('myaccount/header.php'); ?>
     </div>
   <?php }
 }

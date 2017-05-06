@@ -5,6 +5,64 @@
     <title></title>
 </head>
 <body>
-test file
+
+<div class="box_scroll_right_1">
+    <a href="https://giasutriviet.edu.vn/dang-ky-hoc"><img src="https://giasutriviet.edu.vn/wp-content/uploads/2017/04/dang-ky-hoc.png"></a>
+</div>
+<div class="box_scroll_right_2">
+    <a href="https://giasutriviet.edu.vn/dang-ky-lam-gia-su"><img src="https://giasutriviet.edu.vn/wp-content/uploads/2017/04/dang-ky-gia-su.png"></a>
+</div>
+<style type="text/css">
+    .box_scroll_right_1 {
+        -webkit-transition: all .2s; /* Safari */
+        transition: all .2s;
+        position: fixed;
+        top: 200px;
+        right: 10px;
+        z-index: 10000;
+    }
+    .box_scroll_right_1:hover, .box_scroll_right_2:hover {
+        margin-right:15px;
+    }
+    .box_scroll_right_2 {
+        -webkit-transition: all .2s; /* Safari */
+        transition: all .2s;
+        position: fixed;
+        top: 290px;
+        right: 10px;
+        z-index: 10000;
+    }
+</style>
+<!-- ===================Phản hồi======================== -->
+<script type="text/javascript">
+    var width = jQuery( window ).width();
+    if(width >= 550){
+        jQuery(".testimonial-box").removeClass("icon-box-center");
+        jQuery(".testimonial-box").addClass("icon-box-left");
+        jQuery(".testimonial-box").removeClass("text-center");
+        jQuery(".testimonial-box").addClass("text-left");
+    } else {
+        jQuery(".testimonial-box").removeClass("icon-box-left");
+        jQuery(".testimonial-box").addClass("icon-box-center");
+        jQuery(".testimonial-box").removeClass("text-left");
+        jQuery(".testimonial-box").addClass("text-center");
+    }
+    jQuery( window ).resize(function() {
+        var width = jQuery( window ).width();
+        if(width >= 550){
+            jQuery(".testimonial-box").removeClass("icon-box-center");
+            jQuery(".testimonial-box").addClass("icon-box-left");
+            jQuery(".testimonial-box").removeClass("text-center");
+            jQuery(".testimonial-box").addClass("text-left");
+        } else {
+            jQuery(".testimonial-box").removeClass("icon-box-left");
+            jQuery(".testimonial-box").addClass("icon-box-center");
+            jQuery(".testimonial-box").removeClass("text-left");
+            jQuery(".testimonial-box").addClass("text-center");
+        }
+    });
+</script>
+
+
 </body>
 </html>

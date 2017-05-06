@@ -229,6 +229,7 @@ function flatsome_after_add_to_cart_html(){
     echo do_shortcode(get_theme_mod('html_after_add_to_cart'));
 }
 add_action( 'woocommerce_single_product_summary', 'flatsome_after_add_to_cart_html', 30);
+//add_action( 'woocommerce_archive_description', 'flatsome_after_add_to_cart_html', 30);
 
 
 // Add Custom HTML to top of product page

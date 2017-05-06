@@ -19,7 +19,8 @@ get_header( 'shop' );
 if(is_shop() && flatsome_option('html_shop_page_content') && $wp_query->query_vars['paged'] < 1){
    	echo do_shortcode('<div class="shop-page-content">'.flatsome_option('html_shop_page_content').'</div>');
 } else{
-	wc_get_template_part( 'layouts/category', flatsome_option('category_sidebar'));
+	//wc_get_template_part( 'layouts/category', flatsome_option('category_sidebar'));
+	wc_get_template_part( 'layouts/category', 'off-canvas');
 }
 
 get_footer( 'shop' );
